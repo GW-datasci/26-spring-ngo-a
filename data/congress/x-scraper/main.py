@@ -7,49 +7,50 @@ from random import randint
 import os
 
 
-SCREEN_NAME = 'mtgreenee' # Twitter handle to scrape
-TARGET_TWEETS = 19000 # When to stop. Set a realistic ammount based on account history and rate limits. You can always run multiple times to get more.
-BATCH_LIMIT = float('inf')  # Max tweets to collect per date window before moving on
+# === CONFIGURATION ===
+SCREEN_NAMES = [
+    'mtgreenee',
+    'AOC',
+    'BernieSanders',
+    'Votejimjordan',
+    'EliCrane_CEO',
+    'ewarren',
+    'TeamPelosi',
+    'RandPaul',
+    'Victoria_Spartz',
+    'michaelcburgess',
+]
 
-# Date range to cover (adjust as needed)
-END_DATE = datetime(2026, 2, 9)    # today
-START_DATE = datetime(2017, 1, 1)  # when account started
-WINDOW_MONTHS = 1  # size of each date window in months
+TARGET_TWEETS_PER_PROFILE = 30000  # high number to exhaust all tweets
+BATCH_LIMIT = float('inf')        # no limit, exhaust every window
+
+# Date range to cover
+END_DATE = datetime(2026, 2, 9)
+START_DATE = datetime(2016, 1, 1)
+WINDOW_MONTHS = 1
 
 
-async def main():
-    client = Client(language='en-US')
-    client.load_cookies('cookies.json')
-
-    csv_file = 'tweets.csv'
+async def scrape_profile(client, screen_name, csv_file):
+    """Scrape all tweets for a single profile."""
     seen_ids = set()
     tweet_count = 0
 
-    # Load existing data if CSV exists
+    # Load existing tweet IDs for this profile to avoid duplicates
     if os.path.exists(csv_file):
         with open(csv_file, 'r') as file:
             reader = csv.reader(file)
-            header = next(reader)
+            next(reader)  # skip header
             for row in reader:
-                tweet_count += 1
-                if len(row) > 6:
-                    seen_ids.add(row[6])
+                if len(row) > 6 and row[6]:  # has Tweet_ID
+                    if row[0] == screen_name:  # only count this profile's tweets
+                        seen_ids.add(row[6])
+                        tweet_count += 1
 
-        if 'Tweet_ID' not in header:
-            with open(csv_file, 'r') as file:
-                rows = list(csv.reader(file))
-            rows[0].append('Tweet_ID')
-            with open(csv_file, 'w', newline='') as file:
-                writer = csv.writer(file)
-                writer.writerows(rows)
-    else:
-        with open(csv_file, 'w', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerow(['Tweet_count', 'Username', 'Text', 'Created At', 'Retweets', 'Likes', 'Tweet_ID'])
+    print(f'\n{"="*60}')
+    print(f'  @{screen_name} - Starting with {tweet_count} existing tweets')
+    print(f'{"="*60}')
 
-    print(f'{datetime.now()} - Starting with {tweet_count} existing tweets, {len(seen_ids)} known IDs')
-
-    # Generate date windows (newest first, stepping backward)
+    # Generate date windows
     windows = []
     current_end = END_DATE
     while current_end > START_DATE:
@@ -65,9 +66,9 @@ async def main():
     for window_start, window_end in windows:
         since_str = window_start.strftime('%Y-%m-%d')
         until_str = window_end.strftime('%Y-%m-%d')
-        query = f'(from:{SCREEN_NAME}) include:nativeretweets include:replies until:{until_str} since:{since_str}'
+        query = f'(from:{screen_name}) include:nativeretweets include:replies until:{until_str} since:{since_str}'
 
-        print(f'\n{datetime.now()} - === Window: {since_str} to {until_str} ===')
+        print(f'\n{datetime.now()} - === @{screen_name}: {since_str} to {until_str} ===')
 
         tweets = None
         window_count = 0
@@ -76,7 +77,7 @@ async def main():
 
             try:
                 if tweets is None:
-                    print(f'{datetime.now()} - Searching: {query}')
+                    print(f'{datetime.now()} - Searching...')
                     tweets = await client.search_tweet(query, product='Latest')
                 else:
                     wait_time = randint(5, 15)
@@ -90,8 +91,13 @@ async def main():
                 time.sleep(wait_time.total_seconds())
                 continue
             except Exception as e:
-                print(f'{datetime.now()} - Error: {e}. Moving to next window.')
-                break
+                if 'nodename' in str(e) or 'network' in str(e).lower() or 'connection' in str(e).lower():
+                    print(f'{datetime.now()} - Network error: {e}. Retrying in 60s...')
+                    time.sleep(60)
+                    continue
+                else:
+                    print(f'{datetime.now()} - Error: {e}. Moving to next window.')
+                    break
 
             if not tweets:
                 print(f'{datetime.now()} - No more tweets in this window')
@@ -105,7 +111,7 @@ async def main():
                 tweet_count += 1
                 new_tweets += 1
                 window_count += 1
-                tweet_data = [tweet_count, tweet.user.name, tweet.text, tweet.created_at,
+                tweet_data = [screen_name, tweet.user.name, tweet.text, tweet.created_at,
                               tweet.retweet_count, tweet.favorite_count, tweet.id]
 
                 with open(csv_file, 'a', newline='') as file:
@@ -114,16 +120,52 @@ async def main():
 
             print(f'{datetime.now()} - Window: {window_count} new | Total: {tweet_count} ({new_tweets} new, {duplicates} dupes)')
 
-        if tweet_count >= TARGET_TWEETS:
+        if tweet_count >= TARGET_TWEETS_PER_PROFILE:
             print(f'{datetime.now()} - Reached target!')
             break
 
         # Pause between windows
-        wait_time = randint(10, 20)
+        wait_time = randint(5, 10)
         print(f'{datetime.now()} - Pausing {wait_time}s before next window...')
         time.sleep(wait_time)
 
-    print(f'\n{datetime.now()} - Done! {tweet_count} total tweets ({new_tweets} new this run, {duplicates} duplicates skipped)')
+    print(f'\n{datetime.now()} - @{screen_name} done! {tweet_count} total ({new_tweets} new, {duplicates} dupes)')
+    return tweet_count, new_tweets
+
+
+async def main():
+    client = Client(language='en-US')
+    client.load_cookies('cookies.json')
+
+    csv_file = 'tweets.csv'
+
+    # Create CSV if it doesn't exist
+    if not os.path.exists(csv_file):
+        with open(csv_file, 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(['Account', 'Display_Name', 'Text', 'Created_At',
+                             'Retweets', 'Likes', 'Tweet_ID'])
+
+    print(f'{datetime.now()} - Scraping {len(SCREEN_NAMES)} profiles: {", ".join(SCREEN_NAMES)}')
+
+    results = {}
+    for screen_name in SCREEN_NAMES:
+        total, new = await scrape_profile(client, screen_name, csv_file)
+        results[screen_name] = (total, new)
+
+        # Pause between profiles
+        if screen_name != SCREEN_NAMES[-1]:
+            wait_time = randint(30, 60)
+            print(f'\n{datetime.now()} - Pausing {wait_time}s before next profile...')
+            time.sleep(wait_time)
+
+    # Print summary
+    print(f'\n{"="*60}')
+    print(f'  SUMMARY')
+    print(f'{"="*60}')
+    for name, (total, new) in results.items():
+        print(f'  @{name}: {total} total tweets ({new} new this run)')
+    print(f'{"="*60}')
 
 
 asyncio.run(main())
