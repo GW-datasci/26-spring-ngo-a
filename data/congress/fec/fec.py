@@ -1,10 +1,4 @@
-"""
-Fetch all Schedule A individual contributions for candidates in accounts.csv.
-Saves raw records to output/{candidate_id}.csv as it goes.
 
-Usage:
-    caffeinate -i python fec.py
-"""
 
 import csv
 import os
