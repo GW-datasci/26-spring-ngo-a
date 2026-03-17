@@ -7,18 +7,19 @@ from random import randint
 import os
 
 
+
 # === CONFIGURATION ===
 SCREEN_NAMES = [
-    'mtgreenee',
-    'AOC',
-    'BernieSanders',
-    'Votejimjordan',
-    'EliCrane_CEO',
-    'ewarren',
-    'TeamPelosi',
-    'RandPaul',
-    'Victoria_Spartz',
-    'michaelcburgess',
+
+    'FmrRepMTG',
+    'RepAOC',
+    'SenSanders',
+    'Jim_Jordan',
+    'RepEliCrane',
+    'SenWarren',
+    'SpeakerPelosi',
+    'SenRandPaul',
+    'RepSpartz',
 ]
 
 TARGET_TWEETS_PER_PROFILE = 30000  # high number to exhaust all tweets
@@ -135,7 +136,7 @@ async def scrape_profile(client, screen_name, csv_file):
 
 async def main():
     client = Client(language='en-US')
-    client.load_cookies('cookies.json')
+    client.load_cookies('cookies2.json')
 
     csv_file = 'tweets.csv'
 
