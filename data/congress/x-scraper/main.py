@@ -1,65 +1,192 @@
+# MONKEY PATCH: Fix for twikit broken since March 18 2026
+import re
+_tx_mod = __import__('twikit.x_client_transaction.transaction', fromlist=['ClientTransaction'])
+_tx_mod.ON_DEMAND_FILE_REGEX = re.compile(
+    r""",(\d+):["']ondemand\.s["']""", flags=(re.VERBOSE | re.MULTILINE))
+_tx_mod.ON_DEMAND_HASH_PATTERN = r',{}:"([0-9a-f]+)"'
+
+async def _patched_get_indices(self, home_page_response, session, headers):
+    key_byte_indices = []
+    response = self.validate_response(home_page_response) or self.home_page_response
+    on_demand_file_index = _tx_mod.ON_DEMAND_FILE_REGEX.search(str(response)).group(1)
+    regex = re.compile(_tx_mod.ON_DEMAND_HASH_PATTERN.format(on_demand_file_index))
+    filename = regex.search(str(response)).group(1)
+    on_demand_file_url = f"https://abs.twimg.com/responsive-web/client-web/ondemand.s.{filename}a.js"
+    on_demand_file_response = await session.request(method="GET", url=on_demand_file_url, headers=headers)
+    key_byte_indices_match = _tx_mod.INDICES_REGEX.finditer(str(on_demand_file_response.text))
+    for item in key_byte_indices_match:
+        key_byte_indices.append(item.group(2))
+    if not key_byte_indices:
+        raise Exception("Couldn't get KEY_BYTE indices")
+    key_byte_indices = list(map(int, key_byte_indices))
+    return key_byte_indices[0], key_byte_indices[1:]
+
+_tx_mod.ClientTransaction.get_indices = _patched_get_indices
+# END MONKEY PATCH
+
 import asyncio
 from twikit import Client, TooManyRequests
-import time
 from datetime import datetime, timedelta
 import csv
 from random import randint
 import os
-
-
+from dateutil import parser as dateparser
+from dotenv import load_dotenv
+load_dotenv()
 
 # === CONFIGURATION ===
 SCREEN_NAMES = [
-
-    'FmrRepMTG',
-    'RepAOC',
-    'SenSanders',
-    'Jim_Jordan',
-    'RepEliCrane',
     'SenWarren',
     'SpeakerPelosi',
     'SenRandPaul',
     'RepSpartz',
 ]
 
-TARGET_TWEETS_PER_PROFILE = 30000  # high number to exhaust all tweets
-BATCH_LIMIT = float('inf')        # no limit, exhaust every window
+TARGET_TWEETS_PER_PROFILE = 30000
+BATCH_LIMIT = float('inf')
 
-# Date range to cover
 END_DATE = datetime(2026, 2, 9)
 START_DATE = datetime(2016, 1, 1)
-WINDOW_MONTHS = 1
+WINDOW_DAYS = 3
+
+COOKIES_DIR = 'cookies'
+MAX_404_RETRIES = 3
+MAX_DUPE_BATCHES = 1
+
+CREDENTIALS = {}
+for key, value in os.environ.items():
+    if key.startswith('ACCOUNT_'):
+        username, email, password, cookie_file = value.split(',', 3)
+        CREDENTIALS[cookie_file.strip()] = (username.strip(), email.strip(), password.strip())
 
 
-async def scrape_profile(client, screen_name, csv_file):
-    """Scrape all tweets for a single profile."""
+class RotatingClient:
+    """Wraps twikit.Client with rate-limit-driven account rotation."""
+
+    def __init__(self, cookies_dir, credentials):
+        self.cookies_dir = cookies_dir
+        self.credentials = credentials
+        self.cookie_files = sorted(credentials.keys())
+        self.current_index = 0
+        self.client = None
+        self.rate_limits = {}
+
+    async def init(self):
+        os.makedirs(self.cookies_dir, exist_ok=True)
+        await self._load_client(self.current_index)
+
+    async def _load_client(self, index):
+        cookie_file = self.cookie_files[index]
+        cookie_path = os.path.join(self.cookies_dir, cookie_file)
+        creds = self.credentials[cookie_file]
+
+        self.client = Client(language='en-US')
+        await self.client.login(
+            auth_info_1=creds[0],
+            auth_info_2=creds[1],
+            password=creds[2],
+            cookies_file=cookie_path,
+        )
+        self.current_index = index
+        print(f'{datetime.now()} - [Rotation] Loaded account: {creds[0]} ({cookie_file})')
+
+    def current_account(self):
+        return self.cookie_files[self.current_index]
+
+    def mark_limited(self, reset_timestamp):
+        self.rate_limits[self.current_account()] = datetime.fromtimestamp(reset_timestamp)
+
+    def all_limited(self):
+        return len(self.rate_limits) >= len(self.cookie_files)
+
+    def earliest_reset(self):
+        return min(self.rate_limits.values())
+
+    async def handle_rate_limit(self, e):
+        self.mark_limited(e.rate_limit_reset)
+
+        if self.all_limited():
+            wait_until = self.earliest_reset()
+            wait_secs = (wait_until - datetime.now()).total_seconds()
+            if wait_secs > 0:
+                print(f'{datetime.now()} - All accounts exhausted. Waiting {wait_secs:.0f}s until {wait_until}...')
+                await asyncio.sleep(wait_secs)
+            expired_account = min(self.rate_limits, key=self.rate_limits.get)
+            expired_index = self.cookie_files.index(expired_account)
+            self.rate_limits.pop(expired_account)
+            await self._load_client(expired_index)
+        else:
+            next_index = (self.current_index + 1) % len(self.cookie_files)
+            while self.cookie_files[next_index] in self.rate_limits:
+                next_index = (next_index + 1) % len(self.cookie_files)
+            print(f'{datetime.now()} - [Rotation] Switching accounts...')
+            await self._load_client(next_index)
+
+    async def rotate(self):
+        """Force rotate to the next available account (for 404s)."""
+        next_index = (self.current_index + 1) % len(self.cookie_files)
+        print(f'{datetime.now()} - [Rotation] Rotating due to 404...')
+        await self._load_client(next_index)
+
+
+def load_existing(csv_file, screen_name):
+    """Load existing tweet IDs and find the earliest tweet date for a profile."""
     seen_ids = set()
-    tweet_count = 0
+    earliest_date = None
 
-    # Load existing tweet IDs for this profile to avoid duplicates
-    if os.path.exists(csv_file):
-        with open(csv_file, 'r') as file:
-            reader = csv.reader(file)
-            next(reader)  # skip header
-            for row in reader:
-                if len(row) > 6 and row[6]:  # has Tweet_ID
-                    if row[0] == screen_name:  # only count this profile's tweets
-                        seen_ids.add(row[6])
-                        tweet_count += 1
+    if not os.path.exists(csv_file):
+        return seen_ids, earliest_date
+
+    with open(csv_file, 'r') as file:
+        reader = csv.reader(file)
+        next(reader)
+        for row in reader:
+            if len(row) > 6 and row[0] == screen_name and row[6]:
+                seen_ids.add(row[6])
+                try:
+                    tweet_date = dateparser.parse(row[3], ignoretz=True)
+                    if earliest_date is None or tweet_date < earliest_date:
+                        earliest_date = tweet_date
+                except (ValueError, IndexError):
+                    pass
+
+    return seen_ids, earliest_date
+
+
+async def scrape_profile(rc, screen_name, csv_file):
+    """Scrape all tweets for a single profile, resuming from last window."""
+    seen_ids, earliest_date = load_existing(csv_file, screen_name)
+    tweet_count = len(seen_ids)
 
     print(f'\n{"="*60}')
-    print(f'  @{screen_name} - Starting with {tweet_count} existing tweets')
+    print(f'  @{screen_name} - {tweet_count} existing tweets')
+    if earliest_date:
+        print(f'  Earliest tweet: {earliest_date.strftime("%Y-%m-%d")}')
     print(f'{"="*60}')
 
-    # Generate date windows
+    # Generate date windows (newest to oldest)
     windows = []
     current_end = END_DATE
     while current_end > START_DATE:
-        current_start = current_end - timedelta(days=WINDOW_MONTHS * 30)
+        current_start = current_end - timedelta(days=WINDOW_DAYS)
         if current_start < START_DATE:
             current_start = START_DATE
         windows.append((current_start, current_end))
         current_end = current_start
+
+    # Skip windows already covered
+    if earliest_date:
+        skip_count = 0
+        for i, (ws, we) in enumerate(windows):
+            if we <= earliest_date:
+                break
+            skip_count += 1
+        else:
+            skip_count = len(windows)
+
+        if skip_count > 0:
+            print(f'  Skipping {skip_count} already-covered windows')
+            windows = windows[max(skip_count - 1, 0):]
 
     new_tweets = 0
     duplicates = 0
@@ -67,34 +194,45 @@ async def scrape_profile(client, screen_name, csv_file):
     for window_start, window_end in windows:
         since_str = window_start.strftime('%Y-%m-%d')
         until_str = window_end.strftime('%Y-%m-%d')
-        query = f'(from:{screen_name}) include:nativeretweets include:replies until:{until_str} since:{since_str}'
+        query = f'from:{screen_name} until:{until_str} since:{since_str}'
 
         print(f'\n{datetime.now()} - === @{screen_name}: {since_str} to {until_str} ===')
 
         tweets = None
         window_count = 0
+        retries_404 = 0
+        consecutive_dupes = 0
 
         while window_count < BATCH_LIMIT:
-
             try:
                 if tweets is None:
                     print(f'{datetime.now()} - Searching...')
-                    tweets = await client.search_tweet(query, product='Latest')
+                    tweets = await rc.client.search_tweet(query, product='Latest')
                 else:
                     wait_time = randint(5, 15)
                     print(f'{datetime.now()} - Getting next batch after {wait_time}s...')
-                    time.sleep(wait_time)
+                    await asyncio.sleep(wait_time)
                     tweets = await tweets.next()
+                retries_404 = 0
             except TooManyRequests as e:
-                rate_limit_reset = datetime.fromtimestamp(e.rate_limit_reset)
-                print(f'{datetime.now()} - Rate limit reached. Waiting until {rate_limit_reset}')
-                wait_time = rate_limit_reset - datetime.now()
-                time.sleep(wait_time.total_seconds())
+                print(f'{datetime.now()} - Rate limit hit on {rc.current_account()}')
+                await rc.handle_rate_limit(e)
+                tweets = None
                 continue
             except Exception as e:
-                if 'nodename' in str(e) or 'network' in str(e).lower() or 'connection' in str(e).lower():
+                if '404' in str(e):
+                    retries_404 += 1
+                    if retries_404 >= MAX_404_RETRIES:
+                        print(f'{datetime.now()} - 404 x{MAX_404_RETRIES}, skipping window.')
+                        break
+                    print(f'{datetime.now()} - 404 error, rotating account ({retries_404}/{MAX_404_RETRIES})...')
+                    await asyncio.sleep(10)
+                    await rc.rotate()
+                    tweets = None
+                    continue
+                elif 'nodename' in str(e) or 'network' in str(e).lower() or 'connection' in str(e).lower():
                     print(f'{datetime.now()} - Network error: {e}. Retrying in 60s...')
-                    time.sleep(60)
+                    await asyncio.sleep(60)
                     continue
                 else:
                     print(f'{datetime.now()} - Error: {e}. Moving to next window.')
@@ -104,6 +242,7 @@ async def scrape_profile(client, screen_name, csv_file):
                 print(f'{datetime.now()} - No more tweets in this window')
                 break
 
+            batch_new = 0
             for tweet in tweets:
                 if tweet.id in seen_ids:
                     duplicates += 1
@@ -112,6 +251,7 @@ async def scrape_profile(client, screen_name, csv_file):
                 tweet_count += 1
                 new_tweets += 1
                 window_count += 1
+                batch_new += 1
                 tweet_data = [screen_name, tweet.user.name, tweet.text, tweet.created_at,
                               tweet.retweet_count, tweet.favorite_count, tweet.id]
 
@@ -119,28 +259,34 @@ async def scrape_profile(client, screen_name, csv_file):
                     writer = csv.writer(file)
                     writer.writerow(tweet_data)
 
+            if batch_new == 0:
+                consecutive_dupes += 1
+                if consecutive_dupes >= MAX_DUPE_BATCHES:
+                    print(f'{datetime.now()} - {MAX_DUPE_BATCHES} all-dupe batches, moving on.')
+                    break
+            else:
+                consecutive_dupes = 0
+
             print(f'{datetime.now()} - Window: {window_count} new | Total: {tweet_count} ({new_tweets} new, {duplicates} dupes)')
 
         if tweet_count >= TARGET_TWEETS_PER_PROFILE:
             print(f'{datetime.now()} - Reached target!')
             break
 
-        # Pause between windows
         wait_time = randint(5, 10)
         print(f'{datetime.now()} - Pausing {wait_time}s before next window...')
-        time.sleep(wait_time)
+        await asyncio.sleep(wait_time)
 
     print(f'\n{datetime.now()} - @{screen_name} done! {tweet_count} total ({new_tweets} new, {duplicates} dupes)')
     return tweet_count, new_tweets
 
 
 async def main():
-    client = Client(language='en-US')
-    client.load_cookies('cookies2.json')
+    rc = RotatingClient(cookies_dir=COOKIES_DIR, credentials=CREDENTIALS)
+    await rc.init()
 
     csv_file = 'tweets.csv'
 
-    # Create CSV if it doesn't exist
     if not os.path.exists(csv_file):
         with open(csv_file, 'w', newline='') as file:
             writer = csv.writer(file)
@@ -151,16 +297,14 @@ async def main():
 
     results = {}
     for screen_name in SCREEN_NAMES:
-        total, new = await scrape_profile(client, screen_name, csv_file)
+        total, new = await scrape_profile(rc, screen_name, csv_file)
         results[screen_name] = (total, new)
 
-        # Pause between profiles
         if screen_name != SCREEN_NAMES[-1]:
             wait_time = randint(30, 60)
             print(f'\n{datetime.now()} - Pausing {wait_time}s before next profile...')
-            time.sleep(wait_time)
+            await asyncio.sleep(wait_time)
 
-    # Print summary
     print(f'\n{"="*60}')
     print(f'  SUMMARY')
     print(f'{"="*60}')
