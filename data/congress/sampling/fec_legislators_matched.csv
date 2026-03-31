@@ -1,5 +1,5 @@
 Name,Total Raised,Total from Small Donors,Percent from Small Donors*,total money raised,party_code,party_full,Total Raised_num,Total from Small Donors_num,pct_small_donors,clean_name,match_score,match_method,first,last,official_full,party,chamber,state,bioguide,twitter
-TaylorMarjorie Taylor Greene (R),$7932166,$5763400,72.66%,Raised over $100k,R,Republican,7932166,5763400,72.66,Marjorie Taylor Greene,100.0,manual,,,Marjorie Taylor Greene,Republican,rep,GA,G000596,
+TaylorMarjorie Taylor Greene (R),$7932166,$5763400,72.66%,Raised over $100k,R,Republican,7932166,5763400,72.66,Marjorie Taylor Greene,100.0,manual,,,Marjorie Taylor Greene,Republican,rep,GA,G000596,RepMTG
 Ocasio-CortezAlexandria Ocasio-Cortez (D),$15160101,$10602414,69.94%,Raised over $100k,D,Democrat,15160101,10602414,69.94,Alexandria Ocasio-Cortez,100.0,auto,Alexandria,Ocasio-Cortez,Alexandria Ocasio-Cortez,Democrat,rep,NY,O000172,RepAOC
 SandersBernie Sanders (I),$35728405,$22732498,63.63%,Raised over $100k,I,Independent,35728405,22732498,63.63,Bernie Sanders,82.8,auto,Bernard,Sanders,Bernard Sanders,Independent,sen,VT,S000033,SenSanders
 JordanJim Jordan (R),$13313614,$7423207,55.76%,Raised over $100k,R,Republican,13313614,7423207,55.76,Jim Jordan,100.0,auto,Jim,Jordan,Jim Jordan,Republican,rep,OH,J000289,Jim_Jordan
@@ -8,8 +8,8 @@ WarrenElizabeth Warren (D),$20636522,$11272309,54.62%,Raised over $100k,D,Democr
 PelosiNancy Pelosi (D),$10003159,$5340919,53.39%,Raised over $100k,D,Democrat,10003159,5340919,53.39,Nancy Pelosi,100.0,auto,Nancy,Pelosi,Nancy Pelosi,Democrat,rep,CA,P000197,SpeakerPelosi
 PaulRand Paul (R),$35527402,$18466244,51.98%,Raised over $100k,R,Republican,35527402,18466244,51.98,Rand Paul,100.0,auto,Rand,Paul,Rand Paul,Republican,sen,KY,P000603,SenRandPaul
 SpartzVictoria Spartz (R),$811493,$408852,50.38%,Raised over $100k,R,Republican,811493,408852,50.38,Victoria Spartz,100.0,auto,Victoria,Spartz,Victoria Spartz,Republican,rep,IN,S000929,RepSpartz
-BurgessMichael Burgess (R),$1200022,$604170,50.35%,Raised over $100k,R,Republican,1200022,604170,50.35,Michael C. Burgess,100.0,manual,,,Michael C. Burgess,Republican,rep,TX,B001248,
-FettermanJohn Fetterman (D),$82199022,$41257356,50.19%,Raised over $100k,D,Democrat,82199022,41257356,50.19,John Fetterman,100.0,auto,John,Fetterman,John Fetterman,Democrat,sen,PA,F000479,
+BurgessMichael Burgess (R),$1200022,$604170,50.35%,Raised over $100k,R,Republican,1200022,604170,50.35,Michael C. Burgess,100.0,manual,,,Michael C. Burgess,Republican,rep,TX,B001248,MichaelCBurgess
+FettermanJohn Fetterman (D),$82199022,$41257356,50.19%,Raised over $100k,D,Democrat,82199022,41257356,50.19,John Fetterman,100.0,auto,John,Fetterman,John Fetterman,Democrat,sen,PA,F000479,SenFettermanPA
 MillerMary Miller (R),$1560026,$769100,49.30%,Raised over $100k,R,Republican,1560026,769100,49.3,Mary Miller,88.0,auto,Mary,Miller,Mary E. Miller,Republican,rep,IL,M001211,RepMaryMiller
 JacksonRonny Jackson (R),$6312579,$3107198,49.22%,Raised over $100k,R,Republican,6312579,3107198,49.22,Ronny Jackson,100.0,auto,Ronny,Jackson,Ronny Jackson,Republican,rep,TX,J000304,RepRonnyJackson
 FrostMaxwell Frost (D),$3930459,$1924972,48.98%,Raised over $100k,D,Democrat,3930459,1924972,48.98,Maxwell Frost,100.0,auto,Maxwell,Frost,Maxwell Frost,Democrat,rep,FL,F000476,RepMaxwellFrost
@@ -23,7 +23,7 @@ CrockettJasmine Crockett (D),$3036171,$1369700,45.11%,Raised over $100k,D,Democr
 KellyMark Kelly (D),$99670347,$44905855,45.05%,Raised over $100k,D,Democrat,99670347,44905855,45.05,Mark Kelly,100.0,auto,Mark,Kelly,Mark Kelly,Democrat,sen,AZ,K000377,SenMarkKelly
 WarnockRaphael Warnock (D),$184266768,$82704461,44.88%,Raised over $100k,D,Democrat,184266768,82704461,44.88,Raphael Warnock,90.9,auto,Raphael,Warnock,Raphael G. Warnock,Democrat,sen,GA,W000790,SenatorWarnock
 CruzTed Cruz (R),$105557321,$47077922,44.60%,Raised over $100k,R,Republican,105557321,47077922,44.6,Ted Cruz,100.0,auto,Ted,Cruz,Ted Cruz,Republican,sen,TX,C001098,SenTedCruz
-AllredColin Allred (D),$92580217,$41272085,44.58%,Raised over $100k,D,Democrat,92580217,41272085,44.58,Cynthia Axne,100.0,manual,,,Cynthia Axne,Democrat,rep,IA,A000378,
+AllredColin Allred (D),$92580217,$41272085,44.58%,Raised over $100k,D,Democrat,92580217,41272085,44.58,Colin Z. Allred,100.0,manual,,,Colin Z. Allred,Democrat,rep,TX,A000376,RepColinAllred
 HagemanHarriet Hageman (R),$3000255,$1332164,44.40%,Raised over $100k,R,Republican,3000255,1332164,44.4,Harriet Hageman,90.9,auto,Harriet,Hageman,Harriet M. Hageman,Republican,rep,WY,H001096,RepHageman
 BiggsAndy Biggs (R),$1354408,$585838,43.25%,Raised over $100k,R,Republican,1354408,585838,43.25,Andy Biggs,100.0,auto,Andy,Biggs,Andy Biggs,Republican,rep,AZ,B001302,RepAndyBiggsAZ
 DuckworthTammy Duckworth (D),$23296673,$9921754,42.59%,Raised over $100k,D,Democrat,23296673,9921754,42.59,Tammy Duckworth,100.0,auto,Tammy,Duckworth,Tammy Duckworth,Democrat,sen,IL,D000622,SenDuckworth
@@ -39,45 +39,45 @@ JeffriesHakeem Jeffries (D),$22820569,$8694626,38.10%,Raised over $100k,D,Democr
 ZinkeRyan Zinke (R),$9990150,$3732209,37.36%,Raised over $100k,R,Republican,9990150,3732209,37.36,Ryan Zinke,87.0,auto,Ryan,Zinke,Ryan K. Zinke,Republican,rep,MT,Z000018,RepRyanZinke
 LeeMike Lee (R),$16528336,$6030396,36.49%,Raised over $100k,R,Republican,16528336,6030396,36.49,Mike Lee,100.0,auto,Mike,Lee,Mike Lee,Republican,sen,UT,L000577,SenMikeLee
 HawleyJosh Hawley (R),$27210242,$9900237,36.38%,Raised over $100k,R,Republican,27210242,9900237,36.38,Josh Hawley,100.0,auto,Joshua,Hawley,Josh Hawley,Republican,sen,MO,H001089,SenHawleyPress
-RubioMarco Rubio (R),$50277155,$18251673,36.30%,Raised over $100k,R,Republican,50277155,18251673,36.3,Marco Rubio,100.0,manual,,,Marco Rubio,Republican,sen,FL,R000595,
+RubioMarco Rubio (R),$50277155,$18251673,36.30%,Raised over $100k,R,Republican,50277155,18251673,36.3,Marco Rubio,100.0,manual,,,Marco Rubio,Republican,sen,FL,R000595,marcorubio
 RaskinJamie Raskin (D),$4783442,$1733201,36.23%,Raised over $100k,D,Democrat,4783442,1733201,36.23,Jamie Raskin,100.0,auto,Jamie,Raskin,Jamie Raskin,Democrat,rep,MD,R000606,RepRaskin
 MerkleyJeff Merkley (D),$9661683,$3499410,36.22%,Raised over $100k,D,Democrat,9661683,3499410,36.22,Jeff Merkley,100.0,auto,Jeff,Merkley,Jeff Merkley,Democrat,sen,OR,M001176,SenJeffMerkley
 DainesSteven Daines (R),$34306895,$12265663,35.75%,Raised over $100k,R,Republican,34306895,12265663,35.75,Steven Daines,96.0,auto,Steve,Daines,Steve Daines,Republican,sen,MT,D000618,SteveDaines
 PetersGary Peters (D),$56643389,$20199053,35.66%,Raised over $100k,D,Democrat,56643389,20199053,35.66,Gary Peters,88.0,auto,Gary,Peters,Gary C. Peters,Democrat,sen,MI,P000595,SenGaryPeters
 YakymRudy Yakym (R),$3578624,$1264452,35.33%,Raised over $100k,R,Republican,3578624,1264452,35.33,Rudy Yakym,83.3,auto,Rudy,Yakym,Rudy Yakym III,Republican,rep,IN,Y000067,RepRudyYakym
-DeMonica De La Cruz (R),$7884300,$2781246,35.28%,Raised over $100k,R,Republican,7884300,2781246,35.28,Thelma Drake,100.0,manual,,,Thelma Drake,Republican,rep,VA,D000605,
+DeMonica De La Cruz (R),$7884300,$2781246,35.28%,Raised over $100k,R,Republican,7884300,2781246,35.28,Monica De La Cruz,100.0,manual,,,Monica De La Cruz,Republican,rep,TX,D000594,RepMonicaDLC
 CottonTom Cotton (R),$16312092,$5717628,35.05%,Raised over $100k,R,Republican,16312092,5717628,35.05,Tom Cotton,100.0,auto,Tom,Cotton,Tom Cotton,Republican,sen,AR,C001095,SenTomCotton
 EllzeyJake Ellzey (R),$6480006,$2262349,34.91%,Raised over $100k,R,Republican,6480006,2262349,34.91,Jake Ellzey,100.0,auto,Jake,Ellzey,Jake Ellzey,Republican,rep,TX,E000071,RepEllzey
-StabenowDebbie Stabenow (D),$4879808,$1691385,34.66%,Raised over $100k,D,Democrat,4879808,1691385,34.66,Debbie Stabenow,100.0,manual,,,Debbie Stabenow,Democrat,sen,MI,S000770,
+StabenowDebbie Stabenow (D),$4879808,$1691385,34.66%,Raised over $100k,D,Democrat,4879808,1691385,34.66,Debbie Stabenow,100.0,manual,,,Debbie Stabenow,Democrat,sen,MI,S000770,SenStabenow
 MillsCory Mills (R),$1609397,$556808,34.60%,Raised over $100k,R,Republican,1609397,556808,34.6,Cory Mills,100.0,auto,Cory,Mills,Cory Mills,Republican,rep,FL,M001216,RepMillsPress
 MastBrian Mast (R),$3974043,$1366501,34.39%,Raised over $100k,R,Republican,3974043,1366501,34.39,Brian Mast,87.0,auto,Brian,Mast,Brian J. Mast,Republican,rep,FL,M001199,RepBrianMast
 HickenlooperJohn Hickenlooper (D),$45083518,$15427930,34.22%,Raised over $100k,D,Democrat,45083518,15427930,34.22,John Hickenlooper,91.9,auto,John,Hickenlooper,John W. Hickenlooper,Democrat,sen,CO,H000273,SenatorHick
-PorterKatie Porter (D),$32119165,$10902528,33.94%,Raised over $100k,D,Democrat,32119165,10902528,33.94,Katie Porter,100.0,manual,,,Katie Porter,Democrat,rep,CA,P000618,
-PeltolaMary Peltola (D),$13210877,$4395102,33.27%,Raised over $100k,D,Democrat,13210877,4395102,33.27,Mary Sattler Peltola,100.0,manual,,,Mary Sattler Peltola,Democrat,rep,AK,P000619,
+PorterKatie Porter (D),$32119165,$10902528,33.94%,Raised over $100k,D,Democrat,32119165,10902528,33.94,Katie Porter,100.0,manual,,,Katie Porter,Democrat,rep,CA,P000618,RepKatiePorter
+PeltolaMary Peltola (D),$13210877,$4395102,33.27%,Raised over $100k,D,Democrat,13210877,4395102,33.27,Mary Sattler Peltola,100.0,manual,,,Mary Sattler Peltola,Democrat,rep,AK,P000619,Rep_Peltola
 SlotkinElissa Slotkin (D),$51168064,$16845959,32.92%,Raised over $100k,D,Democrat,51168064,16845959,32.92,Elissa Slotkin,100.0,auto,Elissa,Slotkin,Elissa Slotkin,Democrat,sen,MI,S001208,RepSlotkin
 SmithTina Smith (D),$19239090,$6330821,32.91%,Raised over $100k,D,Democrat,19239090,6330821,32.91,Tina Smith,100.0,auto,Tina,Smith,Tina Smith,Democrat,sen,MN,S001203,SenTinaSmith
 BushCori Bush (D),$3931525,$1288772,32.78%,Raised over $100k,D,Democrat,3931525,1288772,32.78,Wesley Bell,100.0,manual,,,Wesley Bell,Democrat,rep,MO,B001324,RepWesleyBellMO
 JohnsonRon Johnson (R),$40097440,$13016509,32.46%,Raised over $100k,R,Republican,40097440,13016509,32.46,Ron Johnson,100.0,auto,Ron,Johnson,Ron Johnson,Republican,sen,WI,J000293,SenRonJohnson
-JacksonJeff Jackson (D),$768284,$249285,32.45%,Raised over $100k,D,Democrat,768284,249285,32.45,Jeff Jackson,100.0,manual,,,Jeff Jackson,Democrat,rep,NC,J000308,
+JacksonJeff Jackson (D),$768284,$249285,32.45%,Raised over $100k,D,Democrat,768284,249285,32.45,Jeff Jackson,100.0,manual,,,Jeff Jackson,Democrat,rep,NC,J000308,RepJeffJackson
 ReschenthalerGuy Reschenthaler (R),$4327277,$1380397,31.90%,Raised over $100k,R,Republican,4327277,1380397,31.9,Guy Reschenthaler,100.0,auto,Guy,Reschenthaler,Guy Reschenthaler,Republican,rep,PA,R000610,GReschenthaler
 TlaibRashida Tlaib (D),$8361649,$2660970,31.82%,Raised over $100k,D,Democrat,8361649,2660970,31.82,Rashida Tlaib,100.0,auto,Rashida,Tlaib,Rashida Tlaib,Democrat,rep,MI,T000481,RepRashida
 BaldwinTammy Baldwin (D),$58515037,$18576727,31.75%,Raised over $100k,D,Democrat,58515037,18576727,31.75,Tammy Baldwin,100.0,auto,Tammy,Baldwin,Tammy Baldwin,Democrat,sen,WI,B001230,SenatorBaldwin
-TesterJon Tester (D),$96070839,$30441610,31.69%,Raised over $100k,D,Democrat,96070839,30441610,31.69,Jon Tester,100.0,manual,,,Jon Tester,Democrat,sen,MT,T000464,
+TesterJon Tester (D),$96070839,$30441610,31.69%,Raised over $100k,D,Democrat,96070839,30441610,31.69,Jon Tester,100.0,manual,,,Jon Tester,Democrat,sen,MT,T000464,SenatorTester
 ErnstJoni Ernst (R),$32364554,$10214624,31.56%,Raised over $100k,R,Republican,32364554,10214624,31.56,Joni Ernst,100.0,auto,Joni,Ernst,Joni Ernst,Republican,sen,IA,E000295,SenJoniErnst
 BookerCory Booker (D),$21523391,$6786966,31.53%,Raised over $100k,D,Democrat,21523391,6786966,31.53,Cory Booker,88.0,auto,Cory,Booker,Cory A. Booker,Democrat,sen,NJ,B001288,SenBooker
 MurphyChristopher S Murphy (D),$15089795,$4756253,31.52%,Raised over $100k,D,Democrat,15089795,4756253,31.52,Christopher S Murphy,94.7,auto,Christopher,Murphy,Christopher Murphy,Democrat,sen,CT,M001169,SenMurphyOffice
-BrownSherrod Brown (D),$100378888,$31507010,31.39%,Raised over $100k,D,Democrat,100378888,31507010,31.39,Sherrod Brown,100.0,manual,,,Sherrod Brown,Democrat,sen,OH,B000944,
+BrownSherrod Brown (D),$100378888,$31507010,31.39%,Raised over $100k,D,Democrat,100378888,31507010,31.39,Sherrod Brown,100.0,manual,,,Sherrod Brown,Democrat,sen,OH,B000944,SenSherrodBrown
 RosenJacky Rosen (D),$50872605,$15915856,31.29%,Raised over $100k,D,Democrat,50872605,15915856,31.29,Jacky Rosen,100.0,auto,Jacky,Rosen,Jacky Rosen,Democrat,sen,NV,R000608,SenJackyRosen
 KlobucharAmy Klobuchar (D),$21485514,$6582687,30.64%,Raised over $100k,D,Democrat,21485514,6582687,30.64,Amy Klobuchar,100.0,auto,Amy,Klobuchar,Amy Klobuchar,Democrat,sen,MN,K000367,SenAmyKlobuchar
-GrijalvaRaul M Grijalva (D),$637820,$191331,30.00%,Raised over $100k,D,Democrat,637820,191331,30.0,Raúl M. Grijalva,100.0,manual,,,Raúl M. Grijalva,Democrat,rep,AZ,G000551,
+GrijalvaRaul M Grijalva (D),$637820,$191331,30.00%,Raised over $100k,D,Democrat,637820,191331,30.0,Raúl M. Grijalva,100.0,manual,,,Raúl M. Grijalva,Democrat,rep,AZ,G000551,RepRaulGrijalva
 CrenshawDan Crenshaw (R),$4056322,$1209494,29.82%,Raised over $100k,R,Republican,4056322,1209494,29.82,Dan Crenshaw,100.0,auto,Dan,Crenshaw,Dan Crenshaw,Republican,rep,TX,C001120,RepDanCrenshaw
 HassanMaggie Hassan (D),$43065876,$12823476,29.78%,Raised over $100k,D,Democrat,43065876,12823476,29.78,Margaret Wood Hassan,100.0,manual,,,Margaret Wood Hassan,Democrat,sen,NH,H001076,SenatorHassan
 VanDerrick Van Orden (R),$7458951,$2210768,29.64%,Raised over $100k,R,Republican,7458951,2210768,29.64,Derrick Van Orden,100.0,manual,,,Derrick Van Orden,Republican,rep,WI,V000135,RepVanOrden
 VanJeff Van Drew (R),$3197984,$935417,29.25%,Raised over $100k,R,Republican,3197984,935417,29.25,Jefferson Van Drew,100.0,manual,,,Jefferson Van Drew,Republican,rep,NJ,V000133,Congressman_JVD
 RoyChip Roy (R),$2884881,$842825,29.22%,Raised over $100k,R,Republican,2884881,842825,29.22,Chip Roy,100.0,auto,Chip,Roy,Chip Roy,Republican,rep,TX,R000614,RepChipRoy
-BowmanJamaal Bowman (D),$5626499,$1632542,29.02%,Raised over $100k,D,Democrat,5626499,1632542,29.02,Jamaal Bowman,100.0,manual,,,Jamaal Bowman,Democrat,rep,NY,B001223,
-CaseyBob Casey (D),$63676634,$18276575,28.70%,Raised over $100k,D,Democrat,63676634,18276575,28.7,"Robert P. Casey, Jr.",100.0,manual,,,"Robert P. Casey, Jr.",Democrat,sen,PA,C001070,
-VanceJ D Vance (R),$17237583,$4872613,28.27%,Raised over $100k,R,Republican,17237583,4872613,28.27,J.D. Vance,100.0,manual,,,J.D. Vance,Republican,sen,OH,V000137,
+BowmanJamaal Bowman (D),$5626499,$1632542,29.02%,Raised over $100k,D,Democrat,5626499,1632542,29.02,Jamaal Bowman,100.0,manual,,,Jamaal Bowman,Democrat,rep,NY,B001223,RepBowman
+CaseyBob Casey (D),$63676634,$18276575,28.70%,Raised over $100k,D,Democrat,63676634,18276575,28.7,"Robert P. Casey, Jr.",100.0,manual,,,"Robert P. Casey, Jr.",Democrat,sen,PA,C001070,SenAngusKing
+VanceJ D Vance (R),$17237583,$4872613,28.27%,Raised over $100k,R,Republican,17237583,4872613,28.27,J.D. Vance,100.0,manual,,,J.D. Vance,Republican,sen,OH,V000137,SenVancePress
 CrowJason Crow (D),$2182039,$614488,28.16%,Raised over $100k,D,Democrat,2182039,614488,28.16,Jason Crow,100.0,auto,Jason,Crow,Jason Crow,Democrat,rep,CO,C001121,RepJasonCrow
 PressleyAyanna Pressley (D),$1411509,$394610,27.96%,Raised over $100k,D,Democrat,1411509,394610,27.96,Ayanna Pressley,100.0,auto,Ayanna,Pressley,Ayanna Pressley,Democrat,rep,MA,P000617,RepPressley
 JohnsonMike Johnson (R),$19065042,$5236369,27.47%,Raised over $100k,R,Republican,19065042,5236369,27.47,Mike Johnson,100.0,auto,Mike,Johnson,Mike Johnson,Republican,rep,LA,J000299,RepMikeJohnson
@@ -93,29 +93,29 @@ KimYoung Kim (R),$9067799,$2273294,25.07%,Raised over $100k,R,Republican,9067799
 BennetMichael Bennet (D),$22125113,$5501310,24.86%,Raised over $100k,D,Democrat,22125113,5501310,24.86,Michael Bennet,90.3,auto,Michael,Bennet,Michael F. Bennet,Democrat,sen,CO,B001267,SenatorBennet
 MarkeyEd Markey (D),$14024552,$3468332,24.73%,Raised over $100k,D,Democrat,14024552,3468332,24.73,Ed Markey,72.0,auto,Edward,Markey,Edward J. Markey,Democrat,sen,MA,M000133,SenMarkey
 BuddTed Budd (R),$16254047,$3890366,23.93%,Raised over $100k,R,Republican,16254047,3890366,23.93,Ted Budd,100.0,auto,Ted,Budd,Ted Budd,Republican,sen,NC,B001305,RepTedBudd
-WaltzMichael Waltz (R),$2791083,$661047,23.68%,Raised over $100k,R,Republican,2791083,661047,23.68,Michael Waltz,100.0,manual,,,Michael Waltz,Republican,rep,FL,W000823,
-KaineTim Kaine (D),$21401882,$5065478,23.67%,Raised over $100k,D,Democrat,21401882,5065478,23.67,Tim Kaine,100.0,auto,Timothy,Kaine,Tim Kaine,Democrat,sen,VA,K000384,
+WaltzMichael Waltz (R),$2791083,$661047,23.68%,Raised over $100k,R,Republican,2791083,661047,23.68,Michael Waltz,100.0,manual,,,Michael Waltz,Republican,rep,FL,W000823,RepMichaelWaltz
+KaineTim Kaine (D),$21401882,$5065478,23.67%,Raised over $100k,D,Democrat,21401882,5065478,23.67,Tim Kaine,100.0,auto,Timothy,Kaine,Tim Kaine,Democrat,sen,VA,K000384,timkaine
 GrassleyChuck Grassley (R),$10945190,$2587304,23.64%,Raised over $100k,R,Republican,10945190,2587304,23.64,Chuck Grassley,100.0,auto,Charles,Grassley,Chuck Grassley,Republican,sen,IA,G000386,ChuckGrassley
 BurchettTim Burchett (R),$1229828,$287186,23.35%,Raised over $100k,R,Republican,1229828,287186,23.35,Tim Burchett,100.0,auto,Tim,Burchett,Tim Burchett,Republican,rep,TN,B001309,RepTimBurchett
-KimAndy Kim (D),$12170781,$2839921,23.33%,Raised over $100k,D,Democrat,12170781,2839921,23.33,Andy Kim,100.0,auto,Andy,Kim,Andy Kim,Democrat,sen,NJ,K000394,
+KimAndy Kim (D),$12170781,$2839921,23.33%,Raised over $100k,D,Democrat,12170781,2839921,23.33,Andy Kim,100.0,auto,Andy,Kim,Andy Kim,Democrat,sen,NJ,K000394,SenatorAndyKim
 McClellanJennifer McClellan (D),$2694818,$628053,23.31%,Raised over $100k,D,Democrat,2694818,628053,23.31,Jennifer McClellan,92.3,auto,Jennifer,McClellan,Jennifer L. McClellan,Democrat,rep,VA,M001227,RepMcClellan
-LeeBarbara Lee (D),$5473994,$1272567,23.25%,Raised over $100k,D,Democrat,5473994,1272567,23.25,Barbara Lee,100.0,manual,,,Barbara Lee,Democrat,rep,CA,L000551,
+LeeBarbara Lee (D),$5473994,$1272567,23.25%,Raised over $100k,D,Democrat,5473994,1272567,23.25,Barbara Lee,100.0,manual,,,Barbara Lee,Democrat,rep,CA,L000551,RepBarbaraLee
 GarciaRobert Garcia (D),$1326793,$292761,22.07%,Raised over $100k,D,Democrat,1326793,292761,22.07,Robert Garcia,100.0,auto,Robert,Garcia,Robert Garcia,Democrat,rep,CA,G000598,RepRobertGarcia
 TillisThom Tillis (R),$25523707,$5578136,21.85%,Raised over $100k,R,Republican,25523707,5578136,21.85,Thom Tillis,100.0,auto,Thom,Tillis,Thom Tillis,Republican,sen,NC,T000476,SenThomTillis
 BluntLisa Blunt Rochester (D),$9889594,$2160238,21.84%,Raised over $100k,D,Democrat,9889594,2160238,21.84,Lisa Blunt Rochester,100.0,manual,,,Lisa Blunt Rochester,Democrat,sen,DE,B001303,SenLBR
 TubervilleTommy Tuberville (R),$11684053,$2464217,21.09%,Raised over $100k,R,Republican,11684053,2464217,21.09,Tommy Tuberville,100.0,auto,Tommy,Tuberville,Tommy Tuberville,Republican,sen,AL,T000278,SenTuberville
 McClainLisa McClain (R),$1029112,$215130,20.90%,Raised over $100k,R,Republican,1029112,215130,20.9,Lisa McClain,88.9,auto,Lisa,McClain,Lisa C. McClain,Republican,rep,MI,M001136,RepLisaMcClain
-SpanbergerAbigail Spanberger (D),$1723491,$359003,20.83%,Raised over $100k,D,Democrat,1723491,359003,20.83,Abigail Davis Spanberger,100.0,manual,,,Abigail Davis Spanberger,Democrat,rep,VA,S001209,
+SpanbergerAbigail Spanberger (D),$1723491,$359003,20.83%,Raised over $100k,D,Democrat,1723491,359003,20.83,Abigail Davis Spanberger,100.0,manual,,,Abigail Davis Spanberger,Democrat,rep,VA,S001209,RepSpanberger
 CornynJohn Cornyn (R),$34095780,$6935021,20.34%,Raised over $100k,R,Republican,34095780,6935021,20.34,John Cornyn,100.0,auto,John,Cornyn,John Cornyn,Republican,sen,TX,C001056,JohnCornyn
 LeeSummer Lee (D),$2923335,$587574,20.10%,Raised over $100k,D,Democrat,2923335,587574,20.1,Summer Lee,87.0,auto,Summer,Lee,Summer L. Lee,Democrat,rep,PA,L000602,RepSummerLee
 SantosGeorge Santos (R),$48129,$9531,19.80%,Raised less than $100k,R,Republican,48129,9531,19.8,Greg Stanton,100.0,manual,,,Greg Stanton,Democrat,rep,AZ,S001211,RepGregStanton
-GoodBob Good (R),$1328803,$262684,19.77%,Raised over $100k,R,Republican,1328803,262684,19.77,Bob Good,100.0,manual,,,Bob Good,Republican,rep,VA,G000595,
+GoodBob Good (R),$1328803,$262684,19.77%,Raised over $100k,R,Republican,1328803,262684,19.77,Bob Good,100.0,manual,,,Bob Good,Republican,rep,VA,G000595,RepBobGood
 TenneyClaudia Tenney (R),$2993079,$589942,19.71%,Raised over $100k,R,Republican,2993079,589942,19.71,Claudia Tenney,100.0,auto,Claudia,Tenney,Claudia Tenney,Republican,rep,NY,T000478,RepTenney
 OwensBurgess Owens (R),$1449406,$285518,19.70%,Raised over $100k,R,Republican,1449406,285518,19.7,Burgess Owens,100.0,auto,Clarence,Owens,Burgess Owens,Republican,rep,UT,O000086,RepBurgessOwens
-WextonJennifer Wexton (D),$480029,$94333,19.65%,Raised over $100k,D,Democrat,480029,94333,19.65,Jennifer Wexton,100.0,manual,,,Jennifer Wexton,Democrat,rep,VA,W000825,
+WextonJennifer Wexton (D),$480029,$94333,19.65%,Raised over $100k,D,Democrat,480029,94333,19.65,Jennifer Wexton,100.0,manual,,,Jennifer Wexton,Democrat,rep,VA,W000825,RepWexton
 HironoMazie K Hirono (D),$4838111,$943649,19.50%,Raised over $100k,D,Democrat,4838111,943649,19.5,Mazie K Hirono,96.6,auto,Mazie,Hirono,Mazie K. Hirono,Democrat,sen,HI,H001042,MazieHirono
 MassieThomas Massie (R),$1323139,$257098,19.43%,Raised over $100k,R,Republican,1323139,257098,19.43,Thomas Massie,100.0,auto,Thomas,Massie,Thomas Massie,Republican,rep,KY,M001184,RepThomasMassie
-DuncanJeff Duncan (R),$784969,$146993,18.73%,Raised over $100k,R,Republican,784969,146993,18.73,Jeff Duncan,100.0,manual,,,Jeff Duncan,Republican,rep,SC,D000615,
+DuncanJeff Duncan (R),$784969,$146993,18.73%,Raised over $100k,R,Republican,784969,146993,18.73,Jeff Duncan,100.0,manual,,,Jeff Duncan,Republican,rep,SC,D000615,RepJeffDuncan
 WagnerAnn Wagner (R),$4213631,$770676,18.29%,Raised over $100k,R,Republican,4213631,770676,18.29,Ann Wagner,100.0,auto,Ann,Wagner,Ann Wagner,Republican,rep,MO,W000812,RepAnnWagner
 BanksJim Banks (R),$7151159,$1305346,18.25%,Raised over $100k,R,Republican,7151159,1305346,18.25,Jim Banks,100.0,auto,Jim,Banks,Jim Banks,Republican,sen,IN,B001299,RepJimBanks
 Hyde-SmithCindy Hyde-Smith (R),$4995726,$908448,18.18%,Raised over $100k,R,Republican,4995726,908448,18.18,Cindy Hyde-Smith,100.0,auto,Cindy,Hyde-Smith,Cindy Hyde-Smith,Republican,sen,MS,H001079,SenHydeSmith
@@ -124,8 +124,8 @@ PocanMark Pocan (D),$1064083,$189287,17.79%,Raised over $100k,D,Democrat,1064083
 CollinsSusan Collins (R),$29778726,$5276897,17.72%,Raised over $100k,R,Republican,29778726,5276897,17.72,Susan Collins,89.7,auto,Susan,Collins,Susan M. Collins,Republican,sen,ME,C001035,SenatorCollins
 KiggansJen Kiggans (R),$6434811,$1134837,17.64%,Raised over $100k,R,Republican,6434811,1134837,17.64,Jen Kiggans,73.3,auto,Jennifer,Kiggans,Jennifer A. Kiggans,Republican,rep,VA,K000399,RepJenKiggans
 KileyKevin Kiley (R),$4187895,$736088,17.58%,Raised over $100k,R,Republican,4187895,736088,17.58,Kevin Kiley,100.0,auto,Kevin,Kiley,Kevin Kiley,Republican,rep,CA,K000401,RepKiley
-MooneyAlex Mooney (R),$1952747,$342324,17.53%,Raised over $100k,R,Republican,1952747,342324,17.53,Alexander X. Mooney,100.0,manual,,,Alexander X. Mooney,Republican,rep,WV,M001195,
-SteelMichelle Steel (R),$10449923,$1816823,17.39%,Raised over $100k,R,Republican,10449923,1816823,17.39,Michelle Steel,100.0,manual,,,Michelle Steel,Republican,rep,CA,S001135,
+MooneyAlex Mooney (R),$1952747,$342324,17.53%,Raised over $100k,R,Republican,1952747,342324,17.53,Alexander X. Mooney,100.0,manual,,,Alexander X. Mooney,Republican,rep,WV,M001195,RepAlexMooney
+SteelMichelle Steel (R),$10449923,$1816823,17.39%,Raised over $100k,R,Republican,10449923,1816823,17.39,Michelle Steel,100.0,manual,,,Michelle Steel,Republican,rep,CA,S001135,RepSteel
 HarshbargerDiana Harshbarger (R),$1872094,$324407,17.33%,Raised over $100k,R,Republican,1872094,324407,17.33,Diana Harshbarger,100.0,auto,Diana,Harshbarger,Diana Harshbarger,Republican,rep,TN,H001086,RepHarshbarger
 StefanikElise Stefanik (R),$15444946,$2636569,17.07%,Raised over $100k,R,Republican,15444946,2636569,17.07,Elise Stefanik,90.3,auto,Elise,Stefanik,Elise M. Stefanik,Republican,rep,NY,S001196,RepStefanik
 CarlJerry Carl (R),$1791145,$305387,17.05%,Raised over $100k,R,Republican,1791145,305387,17.05,John R. Curtis,100.0,manual,,,John R. Curtis,Republican,sen,UT,C001114,RepJohnCurtis
@@ -133,22 +133,22 @@ DavidsSharice Davids (D),$5915701,$979875,16.56%,Raised over $100k,D,Democrat,59
 GosarPaul Gosar (R),$459220,$75643,16.47%,Raised over $100k,R,Republican,459220,75643,16.47,Paul Gosar,87.0,auto,Paul,Gosar,Paul A. Gosar,Republican,rep,AZ,G000565,RepGosar
 CammackKat Cammack (R),$2634508,$433343,16.45%,Raised over $100k,R,Republican,2634508,433343,16.45,Kat Cammack,100.0,auto,Katherine,Cammack,Kat Cammack,Republican,rep,FL,C001039,RepKatCammack
 HayesJahana Hayes (D),$4048084,$657678,16.25%,Raised over $100k,D,Democrat,4048084,657678,16.25,Jahana Hayes,100.0,auto,Jahana,Hayes,Jahana Hayes,Democrat,rep,CT,H001081,RepJahanaHayes
-CaraveoYadira Caraveo (D),$8048643,$1294679,16.09%,Raised over $100k,D,Democrat,8048643,1294679,16.09,Yadira Caraveo,100.0,manual,,,Yadira Caraveo,Democrat,rep,CO,C001134,
+CaraveoYadira Caraveo (D),$8048643,$1294679,16.09%,Raised over $100k,D,Democrat,8048643,1294679,16.09,Yadira Caraveo,100.0,manual,,,Yadira Caraveo,Democrat,rep,CO,C001134,YadiraCaraveo
 FousheeValerie Foushee (D),$683926,$109725,16.04%,Raised over $100k,D,Democrat,683926,109725,16.04,Valerie Foushee,90.9,auto,Valerie,Foushee,Valerie P. Foushee,Democrat,rep,NC,F000477,ValerieFoushee
 HinsonAshley Hinson (R),$5565617,$888904,15.97%,Raised over $100k,R,Republican,5565617,888904,15.97,Ashley Hinson,100.0,auto,Ashley,Hinson,Ashley Hinson,Republican,rep,IA,H001091,RepAshleyHinson
 McClintockTom McClintock (R),$1143387,$180914,15.82%,Raised over $100k,R,Republican,1143387,180914,15.82,Tom McClintock,100.0,auto,Tom,McClintock,Tom McClintock,Republican,rep,CA,M001177,RepMcClintock
-SarbanesJohn Sarbanes (D),$15868,$2509,15.81%,Raised less than $100k,D,Democrat,15868,2509,15.81,John P. Sarbanes,100.0,manual,,,John P. Sarbanes,Democrat,rep,MD,S001168,
+SarbanesJohn Sarbanes (D),$15868,$2509,15.81%,Raised less than $100k,D,Democrat,15868,2509,15.81,John P. Sarbanes,100.0,manual,,,John P. Sarbanes,Democrat,rep,MD,S001168,RepSarbanes
 UnderwoodLauren A Underwood (D),$4082518,$644232,15.78%,Raised over $100k,D,Democrat,4082518,644232,15.78,Lauren A Underwood,94.1,auto,Lauren,Underwood,Lauren Underwood,Democrat,rep,IL,U000040,RepUnderwood
 LummisCynthia Lummis (R),$3581541,$561158,15.67%,Raised over $100k,R,Republican,3581541,561158,15.67,Cynthia Lummis,90.3,auto,Cynthia,Lummis,Cynthia M. Lummis,Republican,sen,WY,L000571,SenLummis
 IssaDarrell Issa (R),$1761806,$275631,15.64%,Raised over $100k,R,Republican,1761806,275631,15.64,Darrell Issa,100.0,auto,Darrell,Issa,Darrell Issa,Republican,rep,CA,I000056,repdarrellissa
-SmithChris Smith (R),$838537,$130989,15.62%,Raised over $100k,R,Republican,838537,130989,15.62,Chris Smith,71.0,auto,Christopher,Smith,Christopher H. Smith,Republican,rep,NJ,S000522,
+SmithChris Smith (R),$838537,$130989,15.62%,Raised over $100k,R,Republican,838537,130989,15.62,Chris Smith,71.0,auto,Christopher,Smith,Christopher H. Smith,Republican,rep,NJ,S000522,RepChrisSmith
 SteubeGreg Steube (R),$1710108,$266852,15.60%,Raised over $100k,R,Republican,1710108,266852,15.6,Greg Steube,78.6,auto,W.,Steube,W. Gregory Steube,Republican,rep,FL,S001214,RepGregSteube
 BalintBecca Balint (D),$1372634,$214118,15.60%,Raised over $100k,D,Democrat,1372634,214118,15.6,Becca Balint,100.0,auto,Becca,Balint,Becca Balint,Democrat,rep,VT,B001318,RepBeccaB
 StansburyMelanie Stansbury (D),$1343239,$209339,15.58%,Raised over $100k,D,Democrat,1343239,209339,15.58,Melanie Stansbury,91.9,auto,Melanie,Stansbury,Melanie A. Stansbury,Democrat,rep,NM,S001218,Rep_Stansbury
 McGovernJames P McGovern (D),$1092908,$170174,15.57%,Raised over $100k,D,Democrat,1092908,170174,15.57,James P McGovern,97.0,auto,James,McGovern,James P. McGovern,Democrat,rep,MA,M000312,RepMcGovern
 GarciaMike Garcia (R),$6485208,$1007275,15.53%,Raised over $100k,R,Republican,6485208,1007275,15.53,Robert Garcia,100.0,manual,,,Robert Garcia,Democrat,rep,CA,G000598,RepRobertGarcia
 HigginsClay Higgins (R),$1016991,$157875,15.52%,Raised over $100k,R,Republican,1016991,157875,15.52,Clay Higgins,100.0,auto,Clay,Higgins,Clay Higgins,Republican,rep,LA,H001077,RepClayHiggins
-WildSusan Wild (D),$8856117,$1374447,15.52%,Raised over $100k,D,Democrat,8856117,1374447,15.52,Susan Wild,100.0,manual,,,Susan Wild,Democrat,rep,PA,W000826,
+WildSusan Wild (D),$8856117,$1374447,15.52%,Raised over $100k,D,Democrat,8856117,1374447,15.52,Susan Wild,100.0,manual,,,Susan Wild,Democrat,rep,PA,W000826,RepSusanWild
 BurlisonEric Burlison (R),$923026,$143138,15.51%,Raised over $100k,R,Republican,923026,143138,15.51,Eric Burlison,100.0,auto,Eric,Burlison,Eric Burlison,Republican,rep,MO,B001316,RepEricBurlison
 CantwellMaria Cantwell (D),$12724745,$1969002,15.47%,Raised over $100k,D,Democrat,12724745,1969002,15.47,Maria Cantwell,100.0,auto,Maria,Cantwell,Maria Cantwell,Democrat,sen,WA,C000127,SenatorCantwell
 GluesenkampMarie Gluesenkamp Perez (D),$11660957,$1798924,15.43%,Raised over $100k,D,Democrat,11660957,1798924,15.43,Craig A. Goldman,100.0,manual,,,Craig A. Goldman,Republican,rep,TX,G000601,RepCraigGoldman
@@ -161,7 +161,7 @@ SchmittEric Schmitt (R),$8421390,$1218529,14.47%,Raised over $100k,R,Republican,
 TiffanyTom Tiffany (R),$1241429,$177927,14.33%,Raised over $100k,R,Republican,1241429,177927,14.33,Thomas P. Tiffany,100.0,manual,,,Thomas P. Tiffany,Republican,rep,WI,T000165,RepTiffany
 HeinrichMartin Heinrich (D),$12970084,$1857275,14.32%,Raised over $100k,D,Democrat,12970084,1857275,14.32,Martin Heinrich,100.0,auto,Martin,Heinrich,Martin Heinrich,Democrat,sen,NM,H001046,MartinHeinrich
 GrothmanGlenn Grothman (R),$985756,$139944,14.20%,Raised over $100k,R,Republican,985756,139944,14.2,Glenn Grothman,100.0,auto,Glenn,Grothman,Glenn Grothman,Republican,rep,WI,G000576,RepGrothman
-ConnollyGerry Connolly (D),$2517838,$356034,14.14%,Raised over $100k,D,Democrat,2517838,356034,14.14,Gerald E. Connolly,100.0,manual,,,Gerald E. Connolly,Democrat,rep,VA,C001078,
+ConnollyGerry Connolly (D),$2517838,$356034,14.14%,Raised over $100k,D,Democrat,2517838,356034,14.14,Gerald E. Connolly,100.0,manual,,,Gerald E. Connolly,Democrat,rep,VA,C001078,GerryConnolly
 FischbachMichelle Fischbach (R),$2010301,$281783,14.02%,Raised over $100k,R,Republican,2010301,281783,14.02,Michelle Fischbach,100.0,auto,Michelle,Fischbach,Michelle Fischbach,Republican,rep,MN,F000470,RepFischbach
 VasquezGabe Vasquez (D),$6956820,$966637,13.89%,Raised over $100k,D,Democrat,6956820,966637,13.89,Gabe Vasquez,100.0,auto,Gabriel (Gabe),Vasquez,Gabe Vasquez,Democrat,rep,NM,V000136,RepGabeVasquez
 DurbinDick Durbin (D),$9493246,$1317861,13.88%,Raised over $100k,D,Democrat,9493246,1317861,13.88,Richard J. Durbin,100.0,manual,,,Richard J. Durbin,Democrat,sen,IL,D000563,SenatorDurbin
@@ -169,31 +169,31 @@ FeenstraRandy Feenstra (R),$4242569,$585320,13.80%,Raised over $100k,R,Republica
 SykesEmilia Sykes (D),$5270437,$715744,13.58%,Raised over $100k,D,Democrat,5270437,715744,13.58,Emilia Sykes,77.4,auto,Emilia,Sykes,Emilia Strong Sykes,Democrat,rep,OH,S001223,RepEmiliaSykes
 SuozziTom Suozzi (D),$9538256,$1289185,13.52%,Raised over $100k,D,Democrat,9538256,1289185,13.52,Tom Suozzi,76.9,auto,Thomas,Suozzi,Thomas R. Suozzi,Democrat,rep,NY,S001201,reptomsuozzi
 CramerKevin Cramer (R),$6388234,$859805,13.46%,Raised over $100k,R,Republican,6388234,859805,13.46,Kevin Cramer,100.0,auto,Kevin,Cramer,Kevin Cramer,Republican,sen,ND,C001096,SenKevinCramer
-SherrillMikie Sherrill (D),$4400561,$591662,13.45%,Raised over $100k,D,Democrat,4400561,591662,13.45,Mikie Sherrill,100.0,manual,,,Mikie Sherrill,Democrat,rep,NJ,S001207,
+SherrillMikie Sherrill (D),$4400561,$591662,13.45%,Raised over $100k,D,Democrat,4400561,591662,13.45,Mikie Sherrill,100.0,manual,,,Mikie Sherrill,Democrat,rep,NJ,S001207,RepSherrill
 MolinaroMarc Molinaro (R),$5501365,$735985,13.38%,Raised over $100k,R,Republican,5501365,735985,13.38,Robert Menendez,100.0,manual,,,Robert Menendez,Democrat,rep,NJ,M001226,RepMenendez
-WilliamsBrandon Williams (R),$4172151,$554346,13.29%,Raised over $100k,R,Republican,4172151,554346,13.29,Brandon Williams,66.7,no_match,,,,,,,,
-PoseyBill Posey (R),$434040,$57383,13.22%,Raised over $100k,R,Republican,434040,57383,13.22,Bill Posey,100.0,manual,,,Bill Posey,Republican,rep,FL,P000599,
+WilliamsBrandon Williams (R),$4172151,$554346,13.29%,Raised over $100k,R,Republican,4172151,554346,13.29,Brandon Williams,100.0,manual,,,Brandon Williams,Republican,rep,NY,W000828,RepWilliams
+PoseyBill Posey (R),$434040,$57383,13.22%,Raised over $100k,R,Republican,434040,57383,13.22,Bill Posey,100.0,manual,,,Bill Posey,Republican,rep,FL,P000599,CongBillPosey
 SwalwellEric Swalwell (D),$3885636,$511246,13.16%,Raised over $100k,D,Democrat,3885636,511246,13.16,Eric Swalwell,100.0,auto,Eric,Swalwell,Eric Swalwell,Democrat,rep,CA,S001193,RepSwalwell
 SchumerCharles E Schumer (D),$42963221,$5630162,13.10%,Raised over $100k,D,Democrat,42963221,5630162,13.1,Charles E Schumer,97.1,auto,Charles,Schumer,Charles E. Schumer,Democrat,sen,NY,S000148,SenSchumer
 MaceNancy Mace (R),$3461772,$449704,12.99%,Raised over $100k,R,Republican,3461772,449704,12.99,Nancy Mace,100.0,auto,Nancy,Mace,Nancy Mace,Republican,rep,SC,M000194,RepNancyMace
 MoskowitzJared Moskowitz (D),$2169791,$280960,12.95%,Raised over $100k,D,Democrat,2169791,280960,12.95,Jared Moskowitz,100.0,auto,Jared,Moskowitz,Jared Moskowitz,Democrat,rep,FL,M001217,RepMoskowitz
 CourtneyJoe Courtney (D),$1265677,$160372,12.67%,Raised over $100k,D,Democrat,1265677,160372,12.67,Joe Courtney,100.0,auto,Joe,Courtney,Joe Courtney,Democrat,rep,CT,C001069,RepJoeCourtney
-LeskoDebbie Lesko (R),$319014,$40398,12.66%,Raised over $100k,R,Republican,319014,40398,12.66,Debbie Lesko,100.0,manual,,,Debbie Lesko,Republican,rep,AZ,L000589,
+LeskoDebbie Lesko (R),$319014,$40398,12.66%,Raised over $100k,R,Republican,319014,40398,12.66,Debbie Lesko,100.0,manual,,,Debbie Lesko,Republican,rep,AZ,L000589,debbielesko
 SalinasAndrea Salinas (D),$5312185,$670954,12.63%,Raised over $100k,D,Democrat,5312185,670954,12.63,Andrea Salinas,100.0,auto,Andrea,Salinas,Andrea Salinas,Democrat,rep,OR,S001226,repsalinas
 HagertyBill Hagerty (R),$17165599,$2163506,12.60%,Raised over $100k,R,Republican,17165599,2163506,12.6,Bill Hagerty,100.0,auto,Bill,Hagerty,Bill Hagerty,Republican,sen,TN,H000601,SenatorHagerty
-BraunMike Braun (R),$2175017,$273857,12.59%,Raised over $100k,R,Republican,2175017,273857,12.59,Mike Braun,100.0,manual,,,Mike Braun,Republican,sen,IN,B001310,
+BraunMike Braun (R),$2175017,$273857,12.59%,Raised over $100k,R,Republican,2175017,273857,12.59,Mike Braun,100.0,manual,,,Mike Braun,Republican,sen,IN,B001310,SenatorBraun
 BrittKatie Britt (R),$15313397,$1919905,12.54%,Raised over $100k,R,Republican,15313397,1919905,12.54,Katie Britt,81.5,auto,Katie,Britt,Katie Boyd Britt,Republican,sen,AL,B001319,SenKatieBritt
 PingreeChellie Pingree (D),$661687,$82710,12.50%,Raised over $100k,D,Democrat,661687,82710,12.5,Chellie Pingree,100.0,auto,Chellie,Pingree,Chellie Pingree,Democrat,rep,ME,P000597,ChelliePingree
-RosendaleMatt Rosendale (R),$790441,$97482,12.33%,Raised over $100k,R,Republican,790441,97482,12.33,"Matthew M. Rosendale, Sr.",100.0,manual,,,"Matthew M. Rosendale, Sr.",Republican,rep,MT,R000103,
-LopezGreg Lopez (R),$43353,$5266,12.15%,Raised less than $100k,R,Republican,43353,5266,12.15,,0.0,known_non_member,,,,,,,,
-LegerTeresa Leger Fernandez (D),$2105098,$254871,12.11%,Raised over $100k,D,Democrat,2105098,254871,12.11,Alan S. Lowenthal,100.0,manual,,,Alan S. Lowenthal,Democrat,rep,CA,L000579,
+RosendaleMatt Rosendale (R),$790441,$97482,12.33%,Raised over $100k,R,Republican,790441,97482,12.33,"Matthew M. Rosendale, Sr.",100.0,manual,,,"Matthew M. Rosendale, Sr.",Republican,rep,MT,R000103,RepRosendale
+LopezGreg Lopez (R),$43353,$5266,12.15%,Raised less than $100k,R,Republican,43353,5266,12.15,Greg Lopez,100.0,manual,,,Greg Lopez,Republican,rep,CO,L000604,RepGregLopez
+LegerTeresa Leger Fernandez (D),$2105098,$254871,12.11%,Raised over $100k,D,Democrat,2105098,254871,12.11,Alan S. Lowenthal,100.0,manual,,,Alan S. Lowenthal,Democrat,rep,CA,L000579,RepLowenthal
 McCaulMichael McCaul (R),$3127715,$377739,12.08%,Raised over $100k,R,Republican,3127715,377739,12.08,Michael McCaul,90.3,auto,Michael,McCaul,Michael T. McCaul,Republican,rep,TX,M001157,RepMcCaul
 RischJames E Risch (R),$3958222,$472814,11.95%,Raised over $100k,R,Republican,3958222,472814,11.95,James E Risch,96.3,auto,James,Risch,James E. Risch,Republican,sen,ID,R000584,SenatorRisch
 CastroJoaquin Castro (D),$677236,$80805,11.93%,Raised over $100k,D,Democrat,677236,80805,11.93,Joaquin Castro,100.0,auto,Joaquin,Castro,Joaquin Castro,Democrat,rep,TX,C001091,JoaquinCastrotx
 OglesAndy Ogles (R),$953830,$113373,11.89%,Raised over $100k,R,Republican,953830,113373,11.89,Andy Ogles,81.8,auto,Andrew,Ogles,Andrew Ogles,Republican,rep,TN,O000175,repogles
 CraigAngie Craig (D),$7785521,$920160,11.82%,Raised over $100k,D,Democrat,7785521,920160,11.82,Angie Craig,100.0,auto,Angie,Craig,Angie Craig,Democrat,rep,MN,C001119,RepAngieCraig
 BairdJim Baird (R),$455568,$52686,11.56%,Raised over $100k,R,Republican,455568,52686,11.56,James R. Baird,100.0,manual,,,James R. Baird,Republican,rep,IN,B001307,RepJimBaird
-Chavez-DeremerLori Chavez-Deremer (R),$5962097,$687815,11.54%,Raised over $100k,R,Republican,5962097,687815,11.54,,0.0,override_id_missing,,,,,,,,
+Chavez-DeremerLori Chavez-Deremer (R),$5962097,$687815,11.54%,Raised over $100k,R,Republican,5962097,687815,11.54,Lori Chavez-DeRemer,100.0,manual,,,Lori Chavez-DeRemer,Republican,rep,OR,C001135,RepLCD
 KapturMarcy Kaptur (D),$5030990,$574735,11.42%,Raised over $100k,D,Democrat,5030990,574735,11.42,Marcy Kaptur,100.0,auto,Marcy,Kaptur,Marcy Kaptur,Democrat,rep,OH,K000009,RepMarcyKaptur
 HarrisAndy Harris (R),$1349540,$152803,11.32%,Raised over $100k,R,Republican,1349540,152803,11.32,Andy Harris,100.0,auto,Andy,Harris,Andy Harris,Republican,rep,MD,H001052,RepAndyHarrisMD
 MalliotakisNicole Malliotakis (R),$3303258,$368457,11.15%,Raised over $100k,R,Republican,3303258,368457,11.15,Nicole Malliotakis,100.0,auto,Nicole,Malliotakis,Nicole Malliotakis,Republican,rep,NY,M000317,RepMalliotakis
@@ -210,7 +210,7 @@ ScholtenHillary Scholten (D),$5219042,$524791,10.06%,Raised over $100k,D,Democra
 SchakowskyJan Schakowsky (D),$1547043,$153233,9.90%,Raised over $100k,D,Democrat,1547043,153233,9.9,Jan Schakowsky,82.4,auto,Janice,Schakowsky,Janice D. Schakowsky,Democrat,rep,IL,S001145,JanSchakowsky
 TakanoMark Takano (D),$1281860,$125289,9.77%,Raised over $100k,D,Democrat,1281860,125289,9.77,Mark Takano,100.0,auto,Mark,Takano,Mark Takano,Democrat,rep,CA,T000472,RepMarkTakano
 ManningKathy Manning (D),$428505,$41882,9.77%,Raised over $100k,D,Democrat,428505,41882,9.77,Gregory F. Murphy,100.0,manual,,,Gregory F. Murphy,Republican,rep,NC,M001210,RepGregMurphy
-GreenMark Green (R),$2140409,$207720,9.70%,Raised over $100k,R,Republican,2140409,207720,9.7,Mark E. Green,100.0,manual,,,Mark E. Green,Republican,rep,TN,G000590,
+GreenMark Green (R),$2140409,$207720,9.70%,Raised over $100k,R,Republican,2140409,207720,9.7,Mark E. Green,100.0,manual,,,Mark E. Green,Republican,rep,TN,G000590,RepMarkGreen
 LevinMike Levin (D),$5512893,$533760,9.68%,Raised over $100k,D,Democrat,5512893,533760,9.68,Mike Levin,100.0,auto,Mike,Levin,Mike Levin,Democrat,rep,CA,L000593,RepMikeLevin
 SorensenEric Sorensen (D),$4999828,$479638,9.59%,Raised over $100k,D,Democrat,4999828,479638,9.59,Eric Sorensen,100.0,auto,Eric,Sorensen,Eric Sorensen,Democrat,rep,IL,S001225,RepEricSorensen
 FulcherRuss Fulcher (R),$626646,$59964,9.57%,Raised over $100k,R,Republican,626646,59964,9.57,Russ Fulcher,100.0,auto,Russ,Fulcher,Russ Fulcher,Republican,rep,ID,F000469,RepRussFulcher
@@ -229,14 +229,14 @@ SchrierKim Schrier (D),$6409926,$563031,8.78%,Raised over $100k,D,Democrat,64099
 FinstadBrad Finstad (R),$1954782,$171280,8.76%,Raised over $100k,R,Republican,1954782,171280,8.76,Brad Finstad,100.0,auto,Brad,Finstad,Brad Finstad,Republican,rep,MN,F000475,RepFinstad
 ScottRick Scott (R),$46338811,$4059971,8.76%,Raised over $100k,R,Republican,46338811,4059971,8.76,Rick Scott,100.0,auto,Rick,Scott,Rick Scott,Republican,sen,FL,S001217,SenRickScott
 NeguseJoseph Neguse (D),$2402305,$210215,8.75%,Raised over $100k,D,Democrat,2402305,210215,8.75,Joseph Neguse,87.0,auto,Joe,Neguse,Joe Neguse,Democrat,rep,CO,N000191,RepJoeNeguse
-KilmerDerek Kilmer (D),$763029,$66457,8.71%,Raised over $100k,D,Democrat,763029,66457,8.71,Derek Kilmer,100.0,manual,,,Derek Kilmer,Democrat,rep,WA,K000381,
+KilmerDerek Kilmer (D),$763029,$66457,8.71%,Raised over $100k,D,Democrat,763029,66457,8.71,Derek Kilmer,100.0,manual,,,Derek Kilmer,Democrat,rep,WA,K000381,RepDerekKilmer
 DunnNeal Dunn (R),$1062453,$91746,8.64%,Raised over $100k,R,Republican,1062453,91746,8.64,Neal Dunn,85.7,auto,Neal,Dunn,Neal P. Dunn,Republican,rep,FL,D000628,DrNealDunnFL2
 KingAngus King (I),$5613023,$478088,8.52%,Raised over $100k,I,Independent,5613023,478088,8.52,Angus King,71.4,auto,Angus,King,"Angus S. King, Jr.",Independent,sen,ME,K000383,SenAngusKing
 GayMary Gay Scanlon (D),$1473876,$124637,8.46%,Raised over $100k,D,Democrat,1473876,124637,8.46,Mary Gay Scanlon,100.0,manual,,,Mary Gay Scanlon,Democrat,rep,PA,S001205,RepMGS
 MarshallRoger Marshall (R),$8689537,$730434,8.41%,Raised over $100k,R,Republican,8689537,730434,8.41,Roger Marshall,100.0,auto,Roger,Marshall,Roger Marshall,Republican,sen,KS,M001198,SenatorMarshall
 LaturnerJake Laturner (R),$678202,$55749,8.22%,Raised over $100k,R,Republican,678202,55749,8.22,Nicholas A. Langworthy,100.0,manual,,,Nicholas A. Langworthy,Republican,rep,NY,L000600,RepLangworthy
 CasarGreg Casar (D),$1108368,$90943,8.21%,Raised over $100k,D,Democrat,1108368,90943,8.21,Greg Casar,100.0,auto,Gregorio,Casar,Greg Casar,Democrat,rep,TX,C001131,RepCasar
-WenstrupBrad Wenstrup (R),$618722,$50740,8.20%,Raised over $100k,R,Republican,618722,50740,8.2,Brad R. Wenstrup,100.0,manual,,,Brad R. Wenstrup,Republican,rep,OH,W000815,
+WenstrupBrad Wenstrup (R),$618722,$50740,8.20%,Raised over $100k,R,Republican,618722,50740,8.2,Brad R. Wenstrup,100.0,manual,,,Brad R. Wenstrup,Republican,rep,OH,W000815,RepBradWenstrup
 PettersenBrittany Pettersen (D),$2444027,$200264,8.19%,Raised over $100k,D,Democrat,2444027,200264,8.19,Brittany Pettersen,100.0,auto,Brittany,Pettersen,Brittany Pettersen,Democrat,rep,CO,P000620,reppettersen
 DelBeneSuzan DelBene (D),$3820057,$310137,8.12%,Raised over $100k,D,Democrat,3820057,310137,8.12,Suzan DelBene,89.7,auto,Suzan,DelBene,Suzan K. DelBene,Democrat,rep,WA,D000617,RepDelBene
 SmithJason Smith (R),$6519602,$528856,8.11%,Raised over $100k,R,Republican,6519602,528856,8.11,Jason Smith,100.0,auto,Jason,Smith,Jason Smith,Republican,rep,MO,S001195,RepJasonSmith
@@ -248,21 +248,21 @@ CastenSean Casten (D),$3007319,$233392,7.76%,Raised over $100k,D,Democrat,300731
 YoungTodd Young (R),$15679033,$1216193,7.76%,Raised over $100k,R,Republican,15679033,1216193,7.76,Todd Young,100.0,auto,Todd,Young,Todd Young,Republican,sen,IN,Y000064,SenToddYoung
 RoundsMike Rounds (R),$4905720,$380413,7.75%,Raised over $100k,R,Republican,4905720,380413,7.75,Mike Rounds,100.0,auto,Mike,Rounds,Mike Rounds,Republican,sen,SD,R000605,SenatorRounds
 FosterBill Foster (D),$3218842,$246554,7.66%,Raised over $100k,D,Democrat,3218842,246554,7.66,Bill Foster,100.0,auto,Bill,Foster,Bill Foster,Democrat,rep,IL,F000454,RepBillFoster
-SinemaKyrsten Sinema (I),$12276462,$935778,7.62%,Raised over $100k,I,Independent,12276462,935778,7.62,Kyrsten Sinema,100.0,manual,,,Kyrsten Sinema,Independent,sen,AZ,S001191,
+SinemaKyrsten Sinema (I),$12276462,$935778,7.62%,Raised over $100k,I,Independent,12276462,935778,7.62,Kyrsten Sinema,100.0,manual,,,Kyrsten Sinema,Independent,sen,AZ,S001191,Senatorsinema
 FischerDeb Fischer (R),$8409719,$639629,7.61%,Raised over $100k,R,Republican,8409719,639629,7.61,Deb Fischer,100.0,auto,Deb,Fischer,Deb Fischer,Republican,sen,NE,F000463,SenatorFischer
 NehlsTroy Nehls (R),$834455,$63085,7.56%,Raised over $100k,R,Republican,834455,63085,7.56,Troy Nehls,87.0,auto,Troy,Nehls,Troy E. Nehls,Republican,rep,TX,N000026,RepTroyNehls
 LeeSusie Lee (D),$5966655,$450741,7.55%,Raised over $100k,D,Democrat,5966655,450741,7.55,Susie Lee,100.0,auto,Susie,Lee,Susie Lee,Democrat,rep,NV,L000590,RepSusieLee
 DeanMadeleine Dean (D),$1739285,$131357,7.55%,Raised over $100k,D,Democrat,1739285,131357,7.55,Madeleine Dean,100.0,auto,Madeleine,Dean,Madeleine Dean,Democrat,rep,PA,D000631,RepDean
 NormanRalph Norman (R),$395128,$29820,7.55%,Raised over $100k,R,Republican,395128,29820,7.55,Ralph Norman,100.0,auto,Ralph,Norman,Ralph Norman,Republican,rep,SC,N000190,RepRalphNorman
-McMorrisCathy McMorris Rodgers (R),$3068965,$229910,7.49%,Raised over $100k,R,Republican,3068965,229910,7.49,Cathy McMorris Rodgers,100.0,manual,,,Cathy McMorris Rodgers,Republican,rep,WA,M001159,
+McMorrisCathy McMorris Rodgers (R),$3068965,$229910,7.49%,Raised over $100k,R,Republican,3068965,229910,7.49,Cathy McMorris Rodgers,100.0,manual,,,Cathy McMorris Rodgers,Republican,rep,WA,M001159,CathyMcMorris
 KrishnamoorthiRaja Krishnamoorthi (D),$10781740,$802847,7.45%,Raised over $100k,D,Democrat,10781740,802847,7.45,Raja Krishnamoorthi,100.0,auto,Raja,Krishnamoorthi,Raja Krishnamoorthi,Democrat,rep,IL,K000391,CongressmanRaja
-RomneyMitt Romney (R),$2523205,$187046,7.41%,Raised over $100k,R,Republican,2523205,187046,7.41,Mitt Romney,100.0,manual,,,Mitt Romney,Republican,sen,UT,R000615,
+RomneyMitt Romney (R),$2523205,$187046,7.41%,Raised over $100k,R,Republican,2523205,187046,7.41,Mitt Romney,100.0,manual,,,Mitt Romney,Republican,sen,UT,R000615,SenatorRomney
 FitzgeraldScott Fitzgerald (R),$1308311,$95942,7.33%,Raised over $100k,R,Republican,1308311,95942,7.33,Scott Fitzgerald,100.0,auto,Scott,Fitzgerald,Scott Fitzgerald,Republican,rep,WI,F000471,RepFitzgerald
 CiscomaniJuan Ciscomani (R),$6876505,$478641,6.96%,Raised over $100k,R,Republican,6876505,478641,6.96,Juan Ciscomani,100.0,auto,Juan,Ciscomani,Juan Ciscomani,Republican,rep,AZ,C001133,RepCiscomani
 TitusDina Titus (D),$2427313,$167477,6.90%,Raised over $100k,D,Democrat,2427313,167477,6.9,Dina Titus,100.0,auto,Dina,Titus,Dina Titus,Democrat,rep,NV,T000468,RepDinaTitus
 CastorKathy Castor (D),$1162514,$80042,6.89%,Raised over $100k,D,Democrat,1162514,80042,6.89,Kathy Castor,100.0,auto,Kathy,Castor,Kathy Castor,Democrat,rep,FL,C001066,USRepKCastor
-CartwrightMatt Cartwright (D),$8563884,$583466,6.81%,Raised over $100k,D,Democrat,8563884,583466,6.81,Matt Cartwright,100.0,manual,,,Matt Cartwright,Democrat,rep,PA,C001090,
-KusterAnn Kuster (D),$1460525,$99210,6.79%,Raised over $100k,D,Democrat,1460525,99210,6.79,Ann M. Kuster,100.0,manual,,,Ann M. Kuster,Democrat,rep,NH,K000382,
+CartwrightMatt Cartwright (D),$8563884,$583466,6.81%,Raised over $100k,D,Democrat,8563884,583466,6.81,Matt Cartwright,100.0,manual,,,Matt Cartwright,Democrat,rep,PA,C001090,RepCartwright
+KusterAnn Kuster (D),$1460525,$99210,6.79%,Raised over $100k,D,Democrat,1460525,99210,6.79,Ann M. Kuster,100.0,manual,,,Ann M. Kuster,Democrat,rep,NH,K000382,RepAnnieKuster
 TokudaJill Tokuda (D),$961307,$65216,6.78%,Raised over $100k,D,Democrat,961307,65216,6.78,Jill Tokuda,88.0,auto,Jill,Tokuda,Jill N. Tokuda,Democrat,rep,HI,T000487,RepJillTokuda
 CalvertKen Calvert (R),$8016040,$541157,6.75%,Raised over $100k,R,Republican,8016040,541157,6.75,Ken Calvert,100.0,auto,Ken,Calvert,Ken Calvert,Republican,rep,CA,C000059,KenCalvert
 ThuneJohn Thune (R),$14676498,$987613,6.73%,Raised over $100k,R,Republican,14676498,987613,6.73,John Thune,100.0,auto,John,Thune,John Thune,Republican,sen,SD,T000250,SenJohnThune
@@ -284,7 +284,7 @@ HoulahanChrissy Houlahan (D),$2490375,$154029,6.18%,Raised over $100k,D,Democrat
 HuffmanJared Huffman (D),$997755,$61180,6.13%,Raised over $100k,D,Democrat,997755,61180,6.13,Jared Huffman,100.0,auto,Jared,Huffman,Jared Huffman,Democrat,rep,CA,H001068,RepHuffman
 EmmerTom Emmer (R),$8166673,$498537,6.10%,Raised over $100k,R,Republican,8166673,498537,6.1,Tom Emmer,100.0,auto,Tom,Emmer,Tom Emmer,Republican,rep,MN,E000294,RepTomEmmer
 MooreShelley Moore Capito (R),$6809822,$414479,6.09%,Raised over $100k,R,Republican,6809822,414479,6.09,Shelley Moore Capito,100.0,manual,,,Shelley Moore Capito,Republican,sen,WV,C001047,SenCapito
-BishopDan Bishop (R),$223950,$13538,6.05%,Raised over $100k,R,Republican,223950,13538,6.05,Dan Bishop,100.0,manual,,,Dan Bishop,Republican,rep,NC,B001311,
+BishopDan Bishop (R),$223950,$13538,6.05%,Raised over $100k,R,Republican,223950,13538,6.05,Dan Bishop,100.0,manual,,,Dan Bishop,Republican,rep,NC,B001311,RepDanBishop
 NadlerJerrold Nadler (D),$1186827,$71188,6.00%,Raised over $100k,D,Democrat,1186827,71188,6.0,Jerrold Nadler,100.0,auto,Jerrold,Nadler,Jerrold Nadler,Democrat,rep,NY,N000002,RepJerryNadler
 BentzCliff Bentz (R),$1093068,$65275,5.97%,Raised over $100k,R,Republican,1093068,65275,5.97,Cliff Bentz,100.0,auto,Cliff,Bentz,Cliff Bentz,Republican,rep,OR,B000668,RepBentz
 NickelWiley Nickel (D),$1506600,$89202,5.92%,Raised over $100k,D,Democrat,1506600,89202,5.92,Zachary Nunn,100.0,manual,,,Zachary Nunn,Republican,rep,IA,N000193,ZachNunn
@@ -294,8 +294,8 @@ SalazarMaria Salazar (R),$3222051,$188175,5.84%,Raised over $100k,R,Republican,3
 ClineBen Cline (R),$1012181,$58930,5.82%,Raised over $100k,R,Republican,1012181,58930,5.82,Ben Cline,100.0,auto,Ben,Cline,Ben Cline,Republican,rep,VA,C001118,RepBenCline
 ScaliseSteve Scalise (R),$14633365,$846440,5.78%,Raised over $100k,R,Republican,14633365,846440,5.78,Steve Scalise,100.0,auto,Steve,Scalise,Steve Scalise,Republican,rep,LA,S001176,SteveScalise
 BeraAmi Bera (D),$1114106,$62602,5.62%,Raised over $100k,D,Democrat,1114106,62602,5.62,Ami Bera,100.0,auto,Ami,Bera,Ami Bera,Democrat,rep,CA,B001287,RepBera
-PhillipsDean Phillips (D),$7670177,$426978,5.57%,Raised over $100k,D,Democrat,7670177,426978,5.57,Dean Phillips,100.0,manual,,,Dean Phillips,Democrat,rep,MN,P000616,
-D'EspositoAnthony D'Esposito (R),$4519185,$251430,5.56%,Raised over $100k,R,Republican,4519185,251430,5.56,,0.0,no_match,,,,,,,,
+PhillipsDean Phillips (D),$7670177,$426978,5.57%,Raised over $100k,D,Democrat,7670177,426978,5.57,Dean Phillips,100.0,manual,,,Dean Phillips,Democrat,rep,MN,P000616,RepDeanPhillips
+D'EspositoAnthony D'Esposito (R),$4519185,$251430,5.56%,Raised over $100k,R,Republican,4519185,251430,5.56,Anthony D’Esposito,100.0,manual,,,Anthony D’Esposito,Republican,rep,NY,D000632,RepDesposito
 DesaulnierMark Desaulnier (D),$658949,$36599,5.55%,Raised over $100k,D,Democrat,658949,36599,5.55,Mark Desaulnier,93.3,auto,Mark,DeSaulnier,Mark DeSaulnier,Democrat,rep,CA,D000623,RepDeSaulnier
 BlackburnMarsha Blackburn (R),$18651419,$1035095,5.55%,Raised over $100k,R,Republican,18651419,1035095,5.55,Marsha Blackburn,100.0,auto,Marsha,Blackburn,Marsha Blackburn,Republican,sen,TN,B001243,MarshaBlackburn
 BrownleyJulia Brownley (D),$1581880,$87174,5.51%,Raised over $100k,D,Democrat,1581880,87174,5.51,Julia Brownley,100.0,auto,Julia,Brownley,Julia Brownley,Democrat,rep,CA,B001285,RepBrownley
@@ -309,12 +309,12 @@ SchneiderBrad Schneider (D),$3837024,$200405,5.22%,Raised over $100k,D,Democrat,
 SteilBryan Steil (R),$5469476,$285471,5.22%,Raised over $100k,R,Republican,5469476,285471,5.22,Bryan Steil,100.0,auto,Bryan,Steil,Bryan Steil,Republican,rep,WI,S001213,RepBryanSteil
 PadillaAlex Padilla (D),$12645481,$659863,5.22%,Raised over $100k,D,Democrat,12645481,659863,5.22,Alex Padilla,100.0,auto,Alejandro,Padilla,Alex Padilla,Democrat,sen,CA,P000145,SenAlexPadilla
 BudzinskiNikki Budzinski (D),$4276995,$218683,5.11%,Raised over $100k,D,Democrat,4276995,218683,5.11,Nikki Budzinski,100.0,auto,Nicole (Nikki),Budzinski,Nikki Budzinski,Democrat,rep,IL,B001315,RepNikkiB
-KildeeDan Kildee (D),$1258893,$64239,5.10%,Raised over $100k,D,Democrat,1258893,64239,5.1,Daniel T. Kildee,100.0,manual,,,Daniel T. Kildee,Democrat,rep,MI,K000380,
+KildeeDan Kildee (D),$1258893,$64239,5.10%,Raised over $100k,D,Democrat,1258893,64239,5.1,Daniel T. Kildee,100.0,manual,,,Daniel T. Kildee,Democrat,rep,MI,K000380,RepDanKildee
 VanChris Van Hollen (D),$8407893,$424602,5.05%,Raised over $100k,D,Democrat,8407893,424602,5.05,Chris Van Hollen,100.0,manual,,,Chris Van Hollen,Democrat,sen,MD,V000128,ChrisVanHollen
 AdamsAlma Adams (D),$714938,$34494,4.82%,Raised over $100k,D,Democrat,714938,34494,4.82,Alma Adams,87.0,auto,Alma,Adams,Alma S. Adams,Democrat,rep,NC,A000370,RepAdams
 DingellDebbie Dingell (D),$1600135,$76307,4.77%,Raised over $100k,D,Democrat,1600135,76307,4.77,Debbie Dingell,100.0,auto,Debbie,Dingell,Debbie Dingell,Democrat,rep,MI,D000624,RepDebDingell
 StantonGreg Stanton (D),$2768921,$130327,4.71%,Raised over $100k,D,Democrat,2768921,130327,4.71,Greg Stanton,100.0,auto,Greg,Stanton,Greg Stanton,Democrat,rep,AZ,S001211,RepGregStanton
-CarperTom Carper (D),$1559477,$72302,4.64%,Raised over $100k,D,Democrat,1559477,72302,4.64,Thomas R. Carper,100.0,manual,,,Thomas R. Carper,Democrat,sen,DE,C000174,
+CarperTom Carper (D),$1559477,$72302,4.64%,Raised over $100k,D,Democrat,1559477,72302,4.64,Thomas R. Carper,100.0,manual,,,Thomas R. Carper,Democrat,sen,DE,C000174,SenatorCarper
 DeLauroRosa DeLauro (D),$1717839,$79563,4.63%,Raised over $100k,D,Democrat,1717839,79563,4.63,Rosa DeLauro,88.9,auto,Rosa,DeLauro,Rosa L. DeLauro,Democrat,rep,CT,D000216,RosaDeLauro
 BrownShontel Brown (D),$1396913,$64413,4.61%,Raised over $100k,D,Democrat,1396913,64413,4.61,Shontel Brown,89.7,auto,Shontel,Brown,Shontel M. Brown,Democrat,rep,OH,B001313,RepShontelBrown
 McCormickRichard McCormick (R),$2168121,$98906,4.56%,Raised over $100k,R,Republican,2168121,98906,4.56,Richard McCormick,100.0,auto,Rich,McCormick,Richard McCormick,Republican,rep,GA,M001218,RepMcCormick
@@ -358,11 +358,11 @@ WebsterDaniel Webster (R),$1004828,$34920,3.48%,Raised over $100k,R,Republican,1
 FryRussell Fry (R),$1473349,$50780,3.45%,Raised over $100k,R,Republican,1473349,50780,3.45,Russell Fry,100.0,auto,Russell,Fry,Russell Fry,Republican,rep,SC,F000478,RepRussellFry
 SelfKeith Self (R),$724772,$24975,3.45%,Raised over $100k,R,Republican,724772,24975,3.45,Keith Self,100.0,auto,Keith,Self,Keith Self,Republican,rep,TX,S001224,repkeithself
 PanettaJimmy Panetta (D),$3326588,$114385,3.44%,Raised over $100k,D,Democrat,3326588,114385,3.44,Jimmy Panetta,100.0,auto,Jimmy,Panetta,Jimmy Panetta,Democrat,rep,CA,P000613,RepJimmyPanetta
-RulliMichael Rulli (R),$1084894,$37054,3.42%,Raised over $100k,R,Republican,1084894,37054,3.42,Michael Rulli,89.7,auto,Michael,Rulli,Michael A. Rulli,Republican,rep,OH,R000619,
-LaMalfaDoug LaMalfa (R),$999613,$33896,3.39%,Raised over $100k,R,Republican,999613,33896,3.39,Doug LaMalfa,100.0,manual,,,Doug LaMalfa,Republican,rep,CA,L000578,
+RulliMichael Rulli (R),$1084894,$37054,3.42%,Raised over $100k,R,Republican,1084894,37054,3.42,Michael Rulli,89.7,auto,Michael,Rulli,Michael A. Rulli,Republican,rep,OH,R000619,RepMikeRulli
+LaMalfaDoug LaMalfa (R),$999613,$33896,3.39%,Raised over $100k,R,Republican,999613,33896,3.39,Doug LaMalfa,100.0,manual,,,Doug LaMalfa,Republican,rep,CA,L000578,RepLaMalfa
 GreenAl Green (D),$340453,$11538,3.39%,Raised over $100k,D,Democrat,340453,11538,3.39,Al Green,100.0,auto,Al,Green,Al Green,Democrat,rep,TX,G000553,RepAlGreen
 HorsfordSteven Horsford (D),$5361170,$181254,3.38%,Raised over $100k,D,Democrat,5361170,181254,3.38,Steven Horsford,100.0,auto,Steven,Horsford,Steven Horsford,Democrat,rep,NV,H001066,RepHorsford
-LuetkemeyerBlaine Luetkemeyer (R),$1270996,$42321,3.33%,Raised over $100k,R,Republican,1270996,42321,3.33,Blaine Luetkemeyer,100.0,manual,,,Blaine Luetkemeyer,Republican,rep,MO,L000569,
+LuetkemeyerBlaine Luetkemeyer (R),$1270996,$42321,3.33%,Raised over $100k,R,Republican,1270996,42321,3.33,Blaine Luetkemeyer,100.0,manual,,,Blaine Luetkemeyer,Republican,rep,MO,L000569,RepBlainePress
 ClarkKatherine Clark (D),$4850379,$159971,3.30%,Raised over $100k,D,Democrat,4850379,159971,3.3,Katherine Clark,90.9,auto,Katherine,Clark,Katherine M. Clark,Democrat,rep,MA,C001101,RepKClark
 WilliamsNikema Williams (D),$991342,$32115,3.24%,Raised over $100k,D,Democrat,991342,32115,3.24,Nikema Williams,100.0,auto,Nikema,Williams,Nikema Williams,Democrat,rep,GA,W000788,RepNikema
 ChuJudy Chu (D),$1894637,$60915,3.22%,Raised over $100k,D,Democrat,1894637,60915,3.22,Judy Chu,100.0,auto,Judy,Chu,Judy Chu,Democrat,rep,CA,C001080,RepJudyChu
@@ -370,7 +370,7 @@ MorelleJoseph D Morelle (D),$2122468,$68117,3.21%,Raised over $100k,D,Democrat,2
 MullinKevin Mullin (D),$734953,$22889,3.11%,Raised over $100k,D,Democrat,734953,22889,3.11,Kevin Mullin,100.0,auto,Kevin,Mullin,Kevin Mullin,Democrat,rep,CA,M001225,RepKevinMullin
 GonzalezVicente Gonzalez (D),$2484862,$77250,3.11%,Raised over $100k,D,Democrat,2484862,77250,3.11,Vicente Gonzalez,100.0,auto,Vicente,Gonzalez,Vicente Gonzalez,Democrat,rep,TX,G000581,RepGonzalez
 CareyMike Carey (R),$2644015,$80421,3.04%,Raised over $100k,R,Republican,2644015,80421,3.04,Mike Carey,100.0,auto,Mike,Carey,Mike Carey,Republican,rep,OH,C001126,RepMikeCarey
-CardinBen Cardin (D),$359838,$10926,3.04%,Raised over $100k,D,Democrat,359838,10926,3.04,Benjamin L. Cardin,100.0,manual,,,Benjamin L. Cardin,Democrat,sen,MD,C000141,
+CardinBen Cardin (D),$359838,$10926,3.04%,Raised over $100k,D,Democrat,359838,10926,3.04,Benjamin L. Cardin,100.0,manual,,,Benjamin L. Cardin,Democrat,sen,MD,C000141,SenatorCardin
 ClarkeYvette Clarke (D),$1095516,$32916,3.00%,Raised over $100k,D,Democrat,1095516,32916,3.0,Yvette Clarke,89.7,auto,Yvette,Clarke,Yvette D. Clarke,Democrat,rep,NY,C001067,RepYvetteClarke
 FranklinScott Franklin (R),$664056,$19575,2.95%,Raised over $100k,R,Republican,664056,19575,2.95,Scott Franklin,100.0,auto,C.,Franklin,Scott Franklin,Republican,rep,FL,F000472,RepFranklin
 LieuTed Lieu (D),$2569823,$75354,2.93%,Raised over $100k,D,Democrat,2569823,75354,2.93,Ted Lieu,100.0,auto,Ted,Lieu,Ted Lieu,Democrat,rep,CA,L000582,RepTedLieu
@@ -379,7 +379,7 @@ MooreGwen Moore (D),$1342845,$38668,2.88%,Raised over $100k,D,Democrat,1342845,3
 AllenRichard W Allen (R),$1217539,$34588,2.84%,Raised over $100k,R,Republican,1217539,34588,2.84,Richard W Allen,78.6,auto,Rick,Allen,Rick W. Allen,Republican,rep,GA,A000372,RepRickAllen
 VanBeth Van Duyne (R),$3124044,$88454,2.83%,Raised over $100k,R,Republican,3124044,88454,2.83,Gabe Vasquez,100.0,manual,,,Gabe Vasquez,Democrat,rep,NM,V000136,RepGabeVasquez
 CarbajalSalud Carbajal (D),$2014463,$57016,2.83%,Raised over $100k,D,Democrat,2014463,57016,2.83,Salud Carbajal,90.3,auto,Salud,Carbajal,Salud O. Carbajal,Democrat,rep,CA,C001112,RepCarbajal
-EdwardsChuck Edwards (R),$1211362,$34041,2.81%,Raised over $100k,R,Republican,1211362,34041,2.81,Chuck Edwards,100.0,auto,Charles (Chuck),Edwards,Chuck Edwards,Republican,rep,NC,E000246,RepEdwards
+EdwardsChuck Edwards (R),$1211362,$34041,2.81%,Raised over $100k,R,Republican,1211362,34041,2.81,Chuck Edwards,100.0,auto,Charles (Chuck),Edwards,Chuck Edwards,Republican,rep,NC,E000246,RepChuckEdwards
 GriffithMorgan Griffith (R),$1002134,$28088,2.80%,Raised over $100k,R,Republican,1002134,28088,2.8,Morgan Griffith,90.9,auto,H.,Griffith,H. Morgan Griffith,Republican,rep,VA,G000568,RepMGriffith
 WomackSteve Womack (R),$2464039,$68506,2.78%,Raised over $100k,R,Republican,2464039,68506,2.78,Steve Womack,100.0,auto,Steve,Womack,Steve Womack,Republican,rep,AR,W000809,Rep_SteveWomack
 AlfordMark Alford (R),$1303886,$36162,2.77%,Raised over $100k,R,Republican,1303886,36162,2.77,Mark Alford,100.0,auto,Mark,Alford,Mark Alford,Republican,rep,MO,A000379,RepMarkAlford
@@ -407,7 +407,7 @@ NewhouseDan Newhouse (R),$2510756,$56759,2.26%,Raised over $100k,R,Republican,25
 BilirakisGus Bilirakis (R),$1750413,$39487,2.26%,Raised over $100k,R,Republican,1750413,39487,2.26,Gus Bilirakis,89.7,auto,Gus,Bilirakis,Gus M. Bilirakis,Republican,rep,FL,B001257,RepGusBilirakis
 MoolenaarJohn Moolenaar (R),$2123784,$47865,2.25%,Raised over $100k,R,Republican,2123784,47865,2.25,John Moolenaar,90.3,auto,John,Moolenaar,John R. Moolenaar,Republican,rep,MI,M001194,RepMoolenaar
 FoxxVirginia Foxx (R),$2361025,$52958,2.24%,Raised over $100k,R,Republican,2361025,52958,2.24,Virginia Foxx,100.0,auto,Virginia,Foxx,Virginia Foxx,Republican,rep,NC,F000450,VirginiaFoxx
-ManchinJoe Manchin (D),$8654338,$192519,2.22%,Raised over $100k,D,Democrat,8654338,192519,2.22,"Joe Manchin, III",100.0,manual,,,"Joe Manchin, III",Independent,sen,WV,M001183,
+ManchinJoe Manchin (D),$8654338,$192519,2.22%,Raised over $100k,D,Democrat,8654338,192519,2.22,"Joe Manchin, III",100.0,manual,,,"Joe Manchin, III",Independent,sen,WV,M001183,Sen_JoeManchin
 FallonPatrick Fallon (R),$746316,$16380,2.19%,Raised over $100k,R,Republican,746316,16380,2.19,Patrick Fallon,83.3,auto,Patrick,Fallon,Pat Fallon,Republican,rep,TX,F000246,RepPatFallon
 BuchananVernon Buchanan (R),$1821782,$39275,2.16%,Raised over $100k,R,Republican,1821782,39275,2.16,Vernon Buchanan,92.9,auto,Vern,Buchanan,Vern Buchanan,Republican,rep,FL,B001260,VernBuchanan
 MaloyCeleste Maloy (R),$1884367,$39728,2.11%,Raised over $100k,R,Republican,1884367,39728,2.11,Celeste Maloy,100.0,auto,Celeste,Maloy,Celeste Maloy,Republican,rep,UT,M001228,RepMaloyUtah
@@ -415,7 +415,7 @@ DuarteJohn Duarte (R),$4522961,$94056,2.08%,Raised over $100k,R,Republican,45229
 WittmanRob Wittman (R),$2793849,$56973,2.04%,Raised over $100k,R,Republican,2793849,56973,2.04,Rob Wittman,78.6,auto,Robert,Wittman,Robert J. Wittman,Republican,rep,VA,W000804,RobWittman
 ThompsonBennie G Thompson (D),$1232971,$24416,1.98%,Raised over $100k,D,Democrat,1232971,24416,1.98,Bennie G Thompson,97.1,auto,Bennie,Thompson,Bennie G. Thompson,Democrat,rep,MS,T000193,BennieGThompson
 EscobarVeronica Escobar (D),$1331009,$26336,1.98%,Raised over $100k,D,Democrat,1331009,26336,1.98,Veronica Escobar,100.0,auto,Veronica,Escobar,Veronica Escobar,Democrat,rep,TX,E000299,RepEscobar
-EshooAnna Eshoo (D),$534701,$10278,1.92%,Raised over $100k,D,Democrat,534701,10278,1.92,Anna G. Eshoo,100.0,manual,,,Anna G. Eshoo,Democrat,rep,CA,E000215,
+EshooAnna Eshoo (D),$534701,$10278,1.92%,Raised over $100k,D,Democrat,534701,10278,1.92,Anna G. Eshoo,100.0,manual,,,Anna G. Eshoo,Democrat,rep,CA,E000215,RepAnnaEshoo
 LoudermilkBarry Loudermilk (R),$826341,$15796,1.91%,Raised over $100k,R,Republican,826341,15796,1.91,Barry Loudermilk,100.0,auto,Barry,Loudermilk,Barry Loudermilk,Republican,rep,GA,L000583,RepLoudermilk
 HernKevin Hern (R),$1932671,$36443,1.89%,Raised over $100k,R,Republican,1932671,36443,1.89,Kevin Hern,100.0,auto,Kevin,Hern,Kevin Hern,Republican,rep,OK,H001082,repkevinhern
 HoyerSteny H Hoyer (D),$1703494,$30478,1.79%,Raised over $100k,D,Democrat,1703494,30478,1.79,Steny H Hoyer,96.3,auto,Steny,Hoyer,Steny H. Hoyer,Democrat,rep,MD,H000874,RepStenyHoyer
@@ -447,7 +447,7 @@ JoyceDavid P Joyce (R),$2425913,$32423,1.34%,Raised over $100k,R,Republican,2425
 SanchezLinda Sanchez (D),$1536204,$20386,1.33%,Raised over $100k,D,Democrat,1536204,20386,1.33,Linda T. Sánchez,100.0,manual,,,Linda T. Sánchez,Democrat,rep,CA,S001156,RepLindaSanchez
 PetersScott Peters (D),$2257820,$29743,1.32%,Raised over $100k,D,Democrat,2257820,29743,1.32,Scott Peters,88.9,auto,Scott,Peters,Scott H. Peters,Democrat,rep,CA,P000608,RepScottPeters
 MenendezRobert Menendez (D),$10861614,$142609,1.31%,Raised over $100k,D,Democrat,10861614,142609,1.31,Robert Menendez,100.0,auto,Robert,Menendez,Robert Menendez,Democrat,rep,NJ,M001226,RepMenendez
-LambornDoug Lamborn (R),$215564,$2790,1.29%,Raised over $100k,R,Republican,215564,2790,1.29,Doug Lamborn,100.0,manual,,,Doug Lamborn,Republican,rep,CO,L000564,
+LambornDoug Lamborn (R),$215564,$2790,1.29%,Raised over $100k,R,Republican,215564,2790,1.29,Doug Lamborn,100.0,manual,,,Doug Lamborn,Republican,rep,CO,L000564,RepDLamborn
 QuigleyMike Quigley (D),$1080428,$13915,1.29%,Raised over $100k,D,Democrat,1080428,13915,1.29,Mike Quigley,100.0,auto,Mike,Quigley,Mike Quigley,Democrat,rep,IL,Q000023,RepMikeQuigley
 WestermanBruce Westerman (R),$2687010,$33982,1.26%,Raised over $100k,R,Republican,2687010,33982,1.26,Bruce Westerman,100.0,auto,Bruce,Westerman,Bruce Westerman,Republican,rep,AR,W000821,RepWesterman
 ScottAustin Scott (R),$1216676,$15354,1.26%,Raised over $100k,R,Republican,1216676,15354,1.26,Austin Scott,100.0,auto,Austin,Scott,Austin Scott,Republican,rep,GA,S001189,AustinScottGA08
@@ -463,7 +463,7 @@ HuizengaBill Huizenga (R),$3106375,$33791,1.09%,Raised over $100k,R,Republican,3
 KamlagerSydney Kamlager (D),$1035793,$11100,1.07%,Raised over $100k,D,Democrat,1035793,11100,1.07,Sydney Kamlager-Dove,100.0,manual,,,Sydney Kamlager-Dove,Democrat,rep,CA,K000400,RepKamlagerDove
 DesjarlaisScott Desjarlais (R),$305705,$3195,1.05%,Raised over $100k,R,Republican,305705,3195,1.05,Scott Desjarlais,93.8,auto,Scott,DesJarlais,Scott DesJarlais,Republican,rep,TN,D000616,DesJarlaisTN04
 ShermanBrad Sherman (D),$2036647,$21162,1.04%,Raised over $100k,D,Democrat,2036647,21162,1.04,Brad Sherman,100.0,auto,Brad,Sherman,Brad Sherman,Democrat,rep,CA,S000344,BradSherman
-Cherfilus-McCormickSheila Cherfilus-McCormick (D),$491758,$5092,1.04%,Raised over $100k,D,Democrat,491758,5092,1.04,Sheila Cherfilus-McCormick,100.0,auto,Sheila,Cherfilus-McCormick,Sheila Cherfilus-McCormick,Democrat,rep,FL,C001127,
+Cherfilus-McCormickSheila Cherfilus-McCormick (D),$491758,$5092,1.04%,Raised over $100k,D,Democrat,491758,5092,1.04,Sheila Cherfilus-McCormick,100.0,auto,Sheila,Cherfilus-McCormick,Sheila Cherfilus-McCormick,Democrat,rep,FL,C001127,CongresswomanSC
 GomezJimmy Gomez (D),$2206489,$22811,1.03%,Raised over $100k,D,Democrat,2206489,22811,1.03,Jimmy Gomez,100.0,auto,Jimmy,Gomez,Jimmy Gomez,Democrat,rep,CA,G000585,RepJimmyGomez
 GuthrieBrett Guthrie (R),$3829929,$38277,1.00%,Raised over $100k,R,Republican,3829929,38277,1.0,Brett Guthrie,100.0,auto,Brett,Guthrie,Brett Guthrie,Republican,rep,KY,G000558,RepGuthrie
 LucasFrank D Lucas (R),$1710072,$16768,0.98%,Raised over $100k,R,Republican,1710072,16768,0.98,Frank D Lucas,96.3,auto,Frank,Lucas,Frank D. Lucas,Republican,rep,OK,L000491,RepFrankLucas
@@ -471,8 +471,8 @@ GimenezCarlos Gimenez (R),$1125646,$10379,0.92%,Raised over $100k,R,Republican,1
 CrawfordRick Crawford (R),$1097029,$10023,0.91%,Raised over $100k,R,Republican,1097029,10023,0.91,"Eric A. ""Rick"" Crawford",100.0,manual,,,"Eric A. ""Rick"" Crawford",Republican,rep,AR,C001087,RepRickCrawford
 GottheimerJosh Gottheimer (D),$10084137,$91712,0.91%,Raised over $100k,D,Democrat,10084137,91712,0.91,Josh Gottheimer,100.0,auto,Josh,Gottheimer,Josh Gottheimer,Democrat,rep,NJ,G000583,RepJoshG
 CarterTroy Carter (D),$1998421,$17137,0.86%,Raised over $100k,D,Democrat,1998421,17137,0.86,Troy Carter,88.0,auto,Troy,Carter,Troy A. Carter,Democrat,rep,LA,C001125,RepTroyCarter
-BlumenauerEarl Blumenauer (D),$1030088,$8808,0.86%,Raised over $100k,D,Democrat,1030088,8808,0.86,Earl Blumenauer,100.0,manual,,,Earl Blumenauer,Democrat,rep,OR,B000574,
-JacksonJonathan Jackson (D),$558906,$4673,0.84%,Raised over $100k,D,Democrat,558906,4673,0.84,Jonathan Jackson,91.4,auto,Jonathan,Jackson,Jonathan L. Jackson,Democrat,rep,IL,J000309,
+BlumenauerEarl Blumenauer (D),$1030088,$8808,0.86%,Raised over $100k,D,Democrat,1030088,8808,0.86,Earl Blumenauer,100.0,manual,,,Earl Blumenauer,Democrat,rep,OR,B000574,BlumenauerMedia
+JacksonJonathan Jackson (D),$558906,$4673,0.84%,Raised over $100k,D,Democrat,558906,4673,0.84,Jonathan Jackson,91.4,auto,Jonathan,Jackson,Jonathan L. Jackson,Democrat,rep,IL,J000309,rep_jackson
 RouzerDavid Rouzer (R),$1776402,$14178,0.80%,Raised over $100k,R,Republican,1776402,14178,0.8,David Rouzer,100.0,auto,David,Rouzer,David Rouzer,Republican,rep,NC,R000603,RepDavidRouzer
 GuestMichael Guest (R),$924939,$7179,0.78%,Raised over $100k,R,Republican,924939,7179,0.78,Michael Guest,100.0,auto,Michael,Guest,Michael Guest,Republican,rep,MS,G000591,RepMichaelGuest
 RogersMike D Rogers (R),$2871792,$21916,0.76%,Raised over $100k,R,Republican,2871792,21916,0.76,Mike D Rogers,91.7,auto,Mike,Rogers,Mike Rogers,Republican,rep,AL,R000575,RepMikeRogersAL
@@ -481,7 +481,7 @@ EstesRon Estes (R),$2261595,$17051,0.75%,Raised over $100k,R,Republican,2261595,
 CuellarHenry Cuellar (D),$2438318,$18016,0.74%,Raised over $100k,D,Democrat,2438318,18016,0.74,Henry Cuellar,100.0,auto,Henry,Cuellar,Henry Cuellar,Democrat,rep,TX,C001063,RepCuellar
 MannTracey Mann (R),$1368783,$9935,0.73%,Raised over $100k,R,Republican,1368783,9935,0.73,Tracey Mann,100.0,auto,Tracey,Mann,Tracey Mann,Republican,rep,KS,M000871,RepMann
 AuchinclossJake Auchincloss (D),$3479676,$24613,0.71%,Raised over $100k,D,Democrat,3479676,24613,0.71,Jake Auchincloss,100.0,auto,Jake,Auchincloss,Jake Auchincloss,Democrat,rep,MA,A000148,RepAuchincloss
-RuppersbergerDutch Ruppersberger (D),$359813,$2531,0.70%,Raised over $100k,D,Democrat,359813,2531,0.7,C. A. Dutch Ruppersberger,100.0,manual,,,C. A. Dutch Ruppersberger,Democrat,rep,MD,R000576,
+RuppersbergerDutch Ruppersberger (D),$359813,$2531,0.70%,Raised over $100k,D,Democrat,359813,2531,0.7,C. A. Dutch Ruppersberger,100.0,manual,,,C. A. Dutch Ruppersberger,Democrat,rep,MD,R000576,Call_Me_Dutch
 NorcrossDon Norcross (D),$2187063,$15294,0.70%,Raised over $100k,D,Democrat,2187063,15294,0.7,Don Norcross,88.9,auto,Donald,Norcross,Donald Norcross,Democrat,rep,NJ,N000188,DonaldNorcross
 WilliamsRoger Williams (R),$1858870,$12991,0.70%,Raised over $100k,R,Republican,1858870,12991,0.7,Roger Williams,100.0,auto,Roger,Williams,Roger Williams,Republican,rep,TX,W000816,RepRWilliams
 WilsonFrederica Wilson (D),$485428,$3315,0.68%,Raised over $100k,D,Democrat,485428,3315,0.68,Frederica Wilson,91.4,auto,Frederica,Wilson,Frederica S. Wilson,Democrat,rep,FL,W000808,RepWilson
@@ -495,9 +495,9 @@ MfumeKweisi Mfume (D),$526322,$2859,0.54%,Raised over $100k,D,Democrat,526322,28
 MenendezRob Menendez (D),$2371989,$12811,0.54%,Raised over $100k,D,Democrat,2371989,12811,0.54,Rob Menendez,88.9,auto,Robert,Menendez,Robert Menendez,Democrat,rep,NJ,M001226,RepMenendez
 BoyleBrendan Boyle (D),$2328291,$12559,0.54%,Raised over $100k,D,Democrat,2328291,12559,0.54,Brendan Boyle,89.7,auto,Brendan,Boyle,Brendan F. Boyle,Democrat,rep,PA,B001296,CongBoyle
 CurtisJohn Curtis (R),$5632555,$30244,0.54%,Raised over $100k,R,Republican,5632555,30244,0.54,John Curtis,88.0,auto,John,Curtis,John R. Curtis,Republican,sen,UT,C001114,RepJohnCurtis
-ArmstrongKelly Armstrong (R),$661893,$3519,0.53%,Raised over $100k,R,Republican,661893,3519,0.53,Kelly Armstrong,100.0,manual,,,Kelly Armstrong,Republican,rep,ND,A000377,
+ArmstrongKelly Armstrong (R),$661893,$3519,0.53%,Raised over $100k,R,Republican,661893,3519,0.53,Kelly Armstrong,100.0,manual,,,Kelly Armstrong,Republican,rep,ND,A000377,RepArmstrongND
 MeuserDan Meuser (R),$1749222,$9025,0.52%,Raised over $100k,R,Republican,1749222,9025,0.52,Dan Meuser,87.0,auto,Daniel,Meuser,Daniel Meuser,Republican,rep,PA,M001204,RepMeuser
-GoodenLance Gooden (R),$1136644,$5752,0.51%,Raised over $100k,R,Republican,1136644,5752,0.51,Lance Gooden,100.0,auto,Lance,Gooden,Lance Gooden,Republican,rep,TX,G000589,
+GoodenLance Gooden (R),$1136644,$5752,0.51%,Raised over $100k,R,Republican,1136644,5752,0.51,Lance Gooden,100.0,auto,Lance,Gooden,Lance Gooden,Republican,rep,TX,G000589,RepLanceGooden
 ArringtonJodey Arrington (R),$3247143,$16135,0.50%,Raised over $100k,R,Republican,3247143,16135,0.5,Jodey Arrington,90.9,auto,Jodey,Arrington,Jodey C. Arrington,Republican,rep,TX,A000375,RepArrington
 ThanedarShri Thanedar (D),$9477463,$44352,0.47%,Raised over $100k,D,Democrat,9477463,44352,0.47,Shri Thanedar,100.0,auto,Shri,Thanedar,Shri Thanedar,Democrat,rep,MI,T000488,RepShriThanedar
 ObernolteJay Obernolte (R),$1365378,$6374,0.47%,Raised over $100k,R,Republican,1365378,6374,0.47,Jay Obernolte,100.0,auto,Jay,Obernolte,Jay Obernolte,Republican,rep,CA,O000019,JayObernolte
@@ -507,21 +507,21 @@ KustoffDavid Kustoff (R),$2410700,$10759,0.45%,Raised over $100k,R,Republican,24
 MillerCarol Miller (R),$1708912,$7411,0.43%,Raised over $100k,R,Republican,1708912,7411,0.43,Carol Miller,88.9,auto,Carol,Miller,Carol D. Miller,Republican,rep,WV,M001205,RepCarolMiller
 AmodeiMark Amodei (R),$1277056,$5525,0.43%,Raised over $100k,R,Republican,1277056,5525,0.43,Mark Amodei,88.0,auto,Mark,Amodei,Mark E. Amodei,Republican,rep,NV,A000369,MarkAmodeiNV2
 LynchStephen Lynch (D),$709924,$3036,0.43%,Raised over $100k,D,Democrat,709924,3036,0.43,Stephen Lynch,89.7,auto,Stephen,Lynch,Stephen F. Lynch,Democrat,rep,MA,L000562,RepStephenLynch
-GravesGarret Graves (R),$2444756,$9788,0.40%,Raised over $100k,R,Republican,2444756,9788,0.4,Garret Graves,100.0,manual,,,Garret Graves,Republican,rep,LA,G000577,
+GravesGarret Graves (R),$2444756,$9788,0.40%,Raised over $100k,R,Republican,2444756,9788,0.4,Garret Graves,100.0,manual,,,Garret Graves,Republican,rep,LA,G000577,RepGarretGraves
 CorreaLou Correa (D),$1374209,$5236,0.38%,Raised over $100k,D,Democrat,1374209,5236,0.38,Lou Correa,75.0,auto,J.,Correa,J. Luis Correa,Democrat,rep,CA,C001110,RepLouCorrea
 SmithAdrian Smith (R),$1995681,$7209,0.36%,Raised over $100k,R,Republican,1995681,7209,0.36,Adrian Smith,100.0,auto,Adrian,Smith,Adrian Smith,Republican,rep,NE,S001172,RepAdrianSmith
 RutherfordJohn Rutherford (R),$892110,$3058,0.34%,Raised over $100k,R,Republican,892110,3058,0.34,John Rutherford,90.9,auto,John,Rutherford,John H. Rutherford,Republican,rep,FL,R000609,RepRutherfordFL
-FergusonDrew Ferguson (R),$818067,$2593,0.32%,Raised over $100k,R,Republican,818067,2593,0.32,A. Drew Ferguson IV,100.0,manual,,,A. Drew Ferguson IV,Republican,rep,GA,F000465,
+FergusonDrew Ferguson (R),$818067,$2593,0.32%,Raised over $100k,R,Republican,818067,2593,0.32,A. Drew Ferguson IV,100.0,manual,,,A. Drew Ferguson IV,Republican,rep,GA,F000465,RepDrewFerguson
 TorresNorma Torres (D),$932869,$2897,0.31%,Raised over $100k,D,Democrat,932869,2897,0.31,Norma Torres,88.9,auto,Norma,Torres,Norma J. Torres,Democrat,rep,CA,T000474,NormaJTorres
 CostaJim Costa (D),$1680778,$4980,0.30%,Raised over $100k,D,Democrat,1680778,4980,0.3,Jim Costa,100.0,auto,Jim,Costa,Jim Costa,Democrat,rep,CA,C001059,RepJimCosta
 RogersHal Rogers (R),$1052277,$3005,0.29%,Raised over $100k,R,Republican,1052277,3005,0.29,Hal Rogers,87.0,auto,Harold,Rogers,Harold Rogers,Republican,rep,KY,R000395,RepHalRogers
-CardenasTony Cardenas (D),$591968,$1680,0.28%,Raised over $100k,D,Democrat,591968,1680,0.28,Tony Cárdenas,100.0,manual,,,Tony Cárdenas,Democrat,rep,CA,C001097,
+CardenasTony Cardenas (D),$591968,$1680,0.28%,Raised over $100k,D,Democrat,591968,1680,0.28,Tony Cárdenas,100.0,manual,,,Tony Cárdenas,Democrat,rep,CA,C001097,RepCardenas
 JoyceJohn Joyce (R),$1630617,$4164,0.26%,Raised over $100k,R,Republican,1630617,4164,0.26,John Joyce,100.0,auto,John,Joyce,John Joyce,Republican,rep,PA,J000302,RepJohnJoyce
 FleischmannChuck Fleischmann (R),$1889740,$4653,0.25%,Raised over $100k,R,Republican,1889740,4653,0.25,Chuck Fleischmann,72.3,auto,Charles,Fleischmann,"Charles J. ""Chuck"" Fleischmann",Republican,rep,TN,F000459,RepChuck
 TroneDavid Trone (D),$63589345,$153586,0.24%,Raised over $100k,D,Democrat,63589345,153586,0.24,Dina Titus,100.0,manual,,,Dina Titus,Democrat,rep,NV,T000468,RepDinaTitus
 PalmerGary Palmer (R),$1714523,$4120,0.24%,Raised over $100k,R,Republican,1714523,4120,0.24,Gary Palmer,88.0,auto,Gary,Palmer,Gary J. Palmer,Republican,rep,AL,P000609,USRepGaryPalmer
 VargasJuan Vargas (D),$790625,$1857,0.23%,Raised over $100k,D,Democrat,790625,1857,0.23,Juan Vargas,100.0,auto,Juan,Vargas,Juan Vargas,Democrat,rep,CA,V000130,RepJuanVargas
-GrangerKay Granger (R),$975070,$2160,0.22%,Raised over $100k,R,Republican,975070,2160,0.22,Kay Granger,100.0,manual,,,Kay Granger,Republican,rep,TX,G000377,
+GrangerKay Granger (R),$975070,$2160,0.22%,Raised over $100k,R,Republican,975070,2160,0.22,Kay Granger,100.0,manual,,,Kay Granger,Republican,rep,TX,G000377,RepKayGranger
 MeeksGregory Meeks (D),$3025012,$6535,0.22%,Raised over $100k,D,Democrat,3025012,6535,0.22,Gregory Meeks,89.7,auto,Gregory,Meeks,Gregory W. Meeks,Democrat,rep,NY,M001137,RepGregoryMeeks
 Diaz-BalartMario Diaz-Balart (R),$2358126,$4745,0.20%,Raised over $100k,R,Republican,2358126,4745,0.2,Mario Diaz-Balart,100.0,auto,Mario,Diaz-Balart,Mario Diaz-Balart,Republican,rep,FL,D000600,MarioDB
 MooreBlake Moore (R),$2464666,$4478,0.18%,Raised over $100k,R,Republican,2464666,4478,0.18,Blake Moore,88.0,auto,Blake,Moore,Blake D. Moore,Republican,rep,UT,M001213,RepBlakeMoore
@@ -530,10 +530,10 @@ ColemanAmata Coleman Radewagen (R),$65150,$100,0.15%,Raised less than $100k,R,Re
 GonzalezJenniffer Gonzalez (3),$1040662,$1427,0.14%,Raised over $100k,,,1040662,1427,0.14,Jenniffer Gonzalez,70.6,auto,Vicente,Gonzalez,Vicente Gonzalez,Democrat,rep,TX,G000581,RepGonzalez
 MillerMax Miller (R),$1907382,$2610,0.14%,Raised over $100k,R,Republican,1907382,2610,0.14,Max Miller,87.0,auto,Max,Miller,Max L. Miller,Republican,rep,OH,M001222,repmaxmiller
 NealRichard E Neal (D),$3251363,$4416,0.14%,Raised over $100k,D,Democrat,3251363,4416,0.14,Richard E Neal,96.6,auto,Richard,Neal,Richard E. Neal,Democrat,rep,MA,N000015,RepRichardNeal
-BucshonLarry Bucshon (R),$675577,$727,0.11%,Raised over $100k,R,Republican,675577,727,0.11,Larry Bucshon,100.0,manual,,,Larry Bucshon,Republican,rep,IN,B001275,
-McHenryPatrick McHenry (R),$1873643,$1939,0.10%,Raised over $100k,R,Republican,1873643,1939,0.1,Patrick T. McHenry,100.0,manual,,,Patrick T. McHenry,Republican,rep,NC,M001156,
-PenceGreg Pence (R),$469760,$485,0.10%,Raised over $100k,R,Republican,469760,485,0.1,Greg Pence,100.0,manual,,,Greg Pence,Republican,rep,IN,P000615,
+BucshonLarry Bucshon (R),$675577,$727,0.11%,Raised over $100k,R,Republican,675577,727,0.11,Larry Bucshon,100.0,manual,,,Larry Bucshon,Republican,rep,IN,B001275,RepLarryBucshon
+McHenryPatrick McHenry (R),$1873643,$1939,0.10%,Raised over $100k,R,Republican,1873643,1939,0.1,Patrick T. McHenry,100.0,manual,,,Patrick T. McHenry,Republican,rep,NC,M001156,PatrickMcHenry
+PenceGreg Pence (R),$469760,$485,0.10%,Raised over $100k,R,Republican,469760,485,0.1,Greg Pence,100.0,manual,,,Greg Pence,Republican,rep,IN,P000615,RepGregPence
 WhitehouseSheldon Whitehouse (D),$6714499,$0,0.00%,Raised over $100k,D,Democrat,6714499,0,0.0,Sheldon Whitehouse,100.0,auto,Sheldon,Whitehouse,Sheldon Whitehouse,Democrat,sen,RI,W000802,SenWhitehouse
-SablanGregorio Sablan (I),$2151,$0,0.00%,Raised less than $100k,I,Independent,2151,0,0.0,Gregorio Kilili Camacho Sablan,100.0,manual,,,Gregorio Kilili Camacho Sablan,Democrat,rep,MP,S001177,
+SablanGregorio Sablan (I),$2151,$0,0.00%,Raised less than $100k,I,Independent,2151,0,0.0,Gregorio Kilili Camacho Sablan,100.0,manual,,,Gregorio Kilili Camacho Sablan,Democrat,rep,MP,S001177,RepSablan
 TrahanLori Trahan (D),$1717667,$0,0.00%,Raised over $100k,D,Democrat,1717667,0,0.0,Lori Trahan,100.0,auto,Lori,Trahan,Lori Trahan,Democrat,rep,MA,T000482,RepLoriTrahan
-NapolitanoGrace Napolitano (D),$43101,$0,0.00%,Raised less than $100k,D,Democrat,43101,0,0.0,Grace F. Napolitano,100.0,manual,,,Grace F. Napolitano,Democrat,rep,CA,N000179,
+NapolitanoGrace Napolitano (D),$43101,$0,0.00%,Raised less than $100k,D,Democrat,43101,0,0.0,Grace F. Napolitano,100.0,manual,,,Grace F. Napolitano,Democrat,rep,CA,N000179,GraceNapolitano
