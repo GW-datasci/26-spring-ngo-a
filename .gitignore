@@ -22,3 +22,7 @@ data/congress/fec/.env
 data/exploring/output/all_contributions_merged.csv
 data/exploring/output/tweets_by_rt_category.csv
 data/exploring/output/tweets_by_type.csv
+data/congress/x-scraper/tweets.csv
+data/coding_sentiment/house/house_tweets_enriched.csv
+data/congress/x-scraper/tweets.csv
+data/congress/x-scraper/tweets.csv

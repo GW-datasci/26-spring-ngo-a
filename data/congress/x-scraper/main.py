@@ -36,7 +36,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # === CONFIGURATION ===
-df = pd.read_csv('sample_house.csv')
+df = pd.read_csv('sample_house_full.csv')
 SCREEN_NAMES = df['twitter'].dropna().str.strip().tolist()
 SCREEN_NAMES = [name for name in SCREEN_NAMES if name]
 
@@ -184,6 +184,8 @@ async def scrape_profile(rc, screen_name, csv_file):
         print(f'\n{datetime.now()} - === @{screen_name}: {since_str} to {until_str} ===')
 
         tweets = None
+        retries_404 = 0
+        retry_count = 0
         while True:
             try:
                 print(f'{datetime.now()} - Searching...')
@@ -192,18 +194,22 @@ async def scrape_profile(rc, screen_name, csv_file):
             except TooManyRequests as e:
                 print(f'{datetime.now()} - Rate limit hit on {rc.current_account()}')
                 await rc.handle_rate_limit(e)
+                retry_count = 0
             except Exception as e:
                 if '404' in str(e):
-                    print(f'{datetime.now()} - 404 error, rotating and retrying...')
+                    retries_404 += 1
+                    if retries_404 >= 3:
+                        print(f'{datetime.now()} - 404 x3, skipping window.')
+                        break
+                    print(f'{datetime.now()} - 404 error, rotating and retrying ({retries_404}/3)...')
                     await asyncio.sleep(3)
                     await rc.rotate()
-                elif 'nodename' in str(e) or 'network' in str(e).lower() or 'connection' in str(e).lower():
-                    print(f'{datetime.now()} - Network error: {e}. Retrying in 60s...')
-                    await asyncio.sleep(60)
                 else:
-                    print(f'{datetime.now()} - Error: {e}. Skipping window.')
-                    tweets = None
-                    break
+                    # 503, wifi drop, any other error — retry indefinitely with backoff
+                    retry_count += 1
+                    wait = min(60 * (2 ** min(retry_count - 1, 4)), 600)
+                    print(f'{datetime.now()} - Error: {e}. Retrying in {wait}s... (attempt {retry_count})')
+                    await asyncio.sleep(wait)
 
         if not tweets:
             print(f'{datetime.now()} - No more tweets in this window')
@@ -226,7 +232,7 @@ async def scrape_profile(rc, screen_name, csv_file):
             print(f'{datetime.now()} - Reached target!')
             break
 
-        wait_time = randint(5, 10)
+        wait_time = randint(5, 8)
         print(f'{datetime.now()} - Pausing {wait_time}s before next window...')
         await asyncio.sleep(wait_time)
 
@@ -275,7 +281,7 @@ async def main():
         results[screen_name] = (total, new)
 
         if screen_name != screen_names_to_run[-1]:
-            wait_time = randint(30, 60)
+            wait_time = randint(15, 30)
             print(f'\n{datetime.now()} - Pausing {wait_time}s before next profile...')
             await asyncio.sleep(wait_time)
 
