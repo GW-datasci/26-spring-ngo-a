@@ -26,3 +26,10 @@ data/congress/x-scraper/tweets.csv
 data/coding_sentiment/house/house_tweets_enriched.csv
 data/congress/x-scraper/tweets.csv
 data/congress/x-scraper/tweets.csv
+data/congress/x-scraper/splitting/instance_1/tweets_1.csv
+data/congress/x-scraper/splitting/instance_2/tweets_2.csv
+data/congress/x-scraper/splitting/instance_3/tweets_2.csv
+data/congress/x-scraper/splitting/remaining_sample_splits/remaining_1.csv
+data/congress/x-scraper/splitting/instance_3/tweets_3.csv
+data/congress/x-scraper/tweets_all.csv
+data/congress/x-scraper/tweets_filtered.csv

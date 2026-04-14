@@ -36,7 +36,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # === CONFIGURATION ===
-df = pd.read_csv('sample_house_full.csv')
+df = pd.read_csv('rescrape_handles.csv')
 SCREEN_NAMES = df['twitter'].dropna().str.strip().tolist()
 SCREEN_NAMES = [name for name in SCREEN_NAMES if name]
 
