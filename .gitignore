@@ -33,3 +33,7 @@ data/congress/x-scraper/splitting/remaining_sample_splits/remaining_1.csv
 data/congress/x-scraper/splitting/instance_3/tweets_3.csv
 data/congress/x-scraper/tweets_all.csv
 data/congress/x-scraper/tweets_filtered.csv
+archive/
+data/coding_sentiment/house/house_tweets.csv
+data/processed/house_tweets_enriched.csv
+data/raw/tweets/tweets_filtered.csv
