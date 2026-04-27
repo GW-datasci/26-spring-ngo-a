@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-for f in sorted(Path("data/processed").glob("*")):
+for f in sorted(Path(".").glob("*.csv")):
     try:
         df = pd.read_csv(f)
         print(f"\n{'='*60}\n{f.name}  ({len(df)} rows, {len(df.columns)} cols)\n{'='*60}")
