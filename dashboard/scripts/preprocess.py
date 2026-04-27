@@ -140,12 +140,15 @@ tweets["Created At"] = tweets["Created At"].astype(str)
 
 
 def collect_for_member(g):
-    """Return up to ~25 unique tweets per member, mixing four ranking strategies."""
+    """
+    Return up to ~50 unique tweets per member across four ranking strategies,
+    ensuring the dashboard's filtered views draw from a comprehensive pool.
+    """
     take = []
-    take.append(g.nlargest(10, "Retweets"))                      # most viral
-    take.append(g.nlargest(8, "sentiment_score"))                # most positive
-    take.append(g.nsmallest(8, "sentiment_score"))               # most negative
-    take.append(g.nlargest(5, "_dt"))                            # most recent
+    take.append(g.nlargest(20, "Retweets"))           # most viral
+    take.append(g.nlargest(15, "sentiment_score"))    # most positive
+    take.append(g.nsmallest(15, "sentiment_score"))   # most negative
+    take.append(g.nlargest(10, "_dt"))                # most recent
 
     out = pd.concat(take, ignore_index=True)
     if "Tweet_ID" in out.columns:
