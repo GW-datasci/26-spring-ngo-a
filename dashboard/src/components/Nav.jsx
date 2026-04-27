@@ -1,9 +1,10 @@
 import { NavLink, Link } from 'react-router-dom'
 
 const ITEMS = [
-  { to: '/',         label: 'Home',     end: true },
-  { to: '/findings', label: 'Findings' },
-  { to: '/explore',  label: 'Explore' },
+  { to: '/',            label: 'Home',        end: true },
+  { to: '/findings',    label: 'Findings' },
+  { to: '/methodology', label: 'Methodology' },
+  { to: '/explore',     label: 'Explore' },
 ]
 
 export default function Nav() {

@@ -2,6 +2,7 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import Nav from './components/Nav'
 import Landing from './pages/Landing'
 import Findings from './pages/Findings'
+import Methodology from './pages/Methodology'
 import Explore from './pages/Explore'
 import Member from './pages/Member'
 
@@ -13,6 +14,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/findings" element={<Findings />} />
+          <Route path="/methodology" element={<Methodology />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/member/:handle" element={<Member />} />
           <Route path="*" element={<Navigate to="/" replace />} />
