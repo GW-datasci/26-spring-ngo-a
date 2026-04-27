@@ -46,6 +46,7 @@ export const CYCLE_COLS = [
   { key: 'pct_small_2018', year: '2018' },
   { key: 'pct_small_2020', year: '2020' },
   { key: 'pct_small_2022', year: '2022' },
+  { key: 'pct_small_donors', year: '2024' },
 ]
 
 const MEMBERS = membersRaw.map(m => {
