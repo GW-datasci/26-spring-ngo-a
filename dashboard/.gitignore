@@ -3,5 +3,3 @@ dist
 .DS_Store
 
 # Generated data — regenerate with scripts/preprocess.py
-src/data/members.json
-src/data/top_tweets.json
