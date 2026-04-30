@@ -264,7 +264,7 @@ export default function SentimentByBand({ members }) {
       {/* Party legend (only when coloring by party) */}
       {colorMode === 'party' && (
         <div className="flex gap-4 mt-3 pt-3 border-t border-border">
-          {['D', 'R', 'I'].map(p => (
+          {['D', 'R'].map(p => (
             <div key={p} className="flex items-center gap-1.5">
               <div
                 className="w-2 h-3 rounded-sm"

@@ -115,7 +115,7 @@ export default function Explore() {
           </FilterGroup>
 
           <FilterGroup title="Party">
-            {['D', 'R', 'I'].map(p => (
+            {['D', 'R'].map(p => (
               <Chip
                 key={p}
                 label={PARTY_LABEL[p]}
@@ -158,7 +158,7 @@ export default function Explore() {
         </div>
 
         <div className="flex gap-6 flex-wrap items-center mt-4">
-          {['D', 'R', 'I'].map(p => (
+          {['D', 'R'].map(p => (
             <div key={p} className="flex items-center gap-2">
               <div
                 className="w-2.5 h-2.5 rounded-full"

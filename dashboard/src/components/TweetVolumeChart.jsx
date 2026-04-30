@@ -180,7 +180,7 @@ export default function TweetVolumeChart({ members }) {
       </div>
 
       <div className="flex gap-5 flex-wrap items-center mt-3 text-xs text-ink-muted">
-        {['D', 'R', 'I'].map(p => (
+        {['D', 'R'].map(p => (
           <div key={p} className="flex items-center gap-1.5">
             <div className="w-2 h-2 rounded-full" style={{ background: PARTY_COLOR[p], opacity: 0.85 }} />
             {PARTY_LABEL[p]}
